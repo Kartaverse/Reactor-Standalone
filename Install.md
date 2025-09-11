@@ -1,5 +1,13 @@
 # Reactor Standalone Installation
 
+## Downloads
+
+You can download the latest Reactor Standalone beta releases from the project's [GitHub Releases page](https://github.com/Kartaverse/Reactor-Standalone/releases).
+
+![GitHub Releases](Images/GitHub-Releases.png)
+
+Note: Click on the "Assets" section for the GitHub release to expand the file download section.
+
 ## Reactor Folder
 
 With Reactor Standalone the "Reactor:" PathMap folder is created in your user account's home folder at:

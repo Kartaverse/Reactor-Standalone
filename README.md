@@ -17,6 +17,15 @@ The Reactor Package Manager has been revamped as a desktop application that work
 - [Beta Notes](BetaNotes.md)
 - [Change Log](ChangeLog.md)
 
+## Downloads
+
+You can download the latest Reactor Standalone beta releases from the project's [GitHub Releases page](https://github.com/Kartaverse/Reactor-Standalone/releases).
+
+![GitHub Releases](Images/GitHub-Releases.png)
+
+Note: Click on the "Assets" section for the GitHub release to expand the file download section.
+
+
 ## Special Thanks Credits
 
 Reactor as it exists today would not be possible without the assistance of the following people:
