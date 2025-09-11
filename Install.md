@@ -4,7 +4,7 @@ Reactor is provided as a zip-based portable install. You can technically expand 
 
 However it's recommended for new users to copy the software into your Applications/Program Files folder for simplicity.
 
-## Downloads
+# Downloads
 
 You can download the latest Reactor Standalone beta releases from the project's [GitHub Releases page](https://github.com/Kartaverse/Reactor-Standalone/releases).
 
@@ -148,7 +148,7 @@ On Linux the JSON preference file can be found at:
 3. Drag the "Reactor" program folder from the "/opt/Reactor/" location into the trash can.
 
 
-## Reactor Content Folder
+# Reactor Content Folder
 
 When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name "Reactor". The reason this is done is it means the same content can be made accessible to DaVinci Resolve, Fusion Studio, and Fusion Render Node.
 
@@ -171,7 +171,7 @@ On Windows this location is typically:
 On Linux this location is typically:  
 `/home/<Your User Account>/Reactor/`
 
-## Reactor Installation Location
+# Customizing the Reactor Installation Location
 
 The Reactor "File > Settings..." (macOS) and "File > Preferences" (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.
 
