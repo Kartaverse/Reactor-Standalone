@@ -60,6 +60,48 @@ If you store your programs on another hard drive, copy the "Reactor" folder to t
 Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.
 
 
+## Linking Reactor to Resolve/Fusion
+
+After you run Reactor and accept the license terms, go to Reactor's "File > Connect Reactor to Fusion…" menu item.
+
+![Connect to Fusion](Images/Beta-6a-Connect-to-Fusion.png)
+
+Follow the instructions in this dialog to make the Reactor downloaded content show up inside of DaVinci Resolve/Fusion.
+
+![Connect Reactor to Fusion](Images/Beta-6b-Connect-Reactor-to-Fusion.png)
+
+Click the "Create Script" button. A file named "Reactor Setup.lua" will be created on your computer's desktop folder. Open this folder up in a desktop folder browsing window.
+
+Start the Davinci Resolve/Fusion program. Navigate into an existing editing project. Then open up the "Workspace > Console" menu item.
+
+![Workspace Console.png)
+](Images/Beta-7-Workspace-Console.png)
+
+The Console window will appear. This is the view where Lua and Python scripts can be run, by dragging them from the Desktop folder into the Console window.
+
+![Console Window](Images/Beta-8-Console-Window.png)
+
+Drag the following Lua script file from your desktop folder into the Console window to run it. You may have to re-open the Console window again after running the scripts to see the result.
+
+![Console Result](Images/Beta-9-Console-Result.png)
+
+If the setup process was successful the Console window will show the following message:
+
+![Lua Script](Images/Beta-9-Lua-Script.png)
+
+Quit DaVinci Resolve/Fusion. Then re-launch the software. You should now have Kartaverse installed on your system. 
+
+The "Reactor Setup.lua" script created what is called a Fusion Pathmap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called "Reactor:" to the location on the disk where the files were downloaded to.
+
+If you want to see where the PathMap setting was configured in the program's settings, open up DaVinci Resolve's Fusion page. Navigate to the "Fusion > Fusion Settings…" menu.
+
+![Fusion Settings](Images/Beta-10-Fusion-Settings.png)
+
+Then on the left sidebar select the "PathMap" entry. Scroll down in the main part of the view to the bottom of the list. You will see the User section where the "Reactor:" entry is defined. Also in the "UserPaths:", and "Scripts:" sections of the dialog the Reactor entry is referenced.
+
+![PathMaps](Images/Beta-10-PathMaps.png)
+
+
 # Uninstalling Reactor
 
 ## macOS Uninstall
@@ -109,7 +151,7 @@ This is what the Reactor content folder looks like in a typical usage scenario:
 
 ![Content folder](Images/Reactor-Content-Folder.png)
 
-With Reactor Standalone v4, Fusion settings will have the "Reactor:" PathMap folder entry created so it points to the content stored your user account's home folder at:
+Inside of Fusion, the "Reactor:" PathMap folder entry has been updated compared to prior Reactor releases, so it now points to the content that is stored your user account's home folder at:
 
 `$HOME/Reactor/`
 

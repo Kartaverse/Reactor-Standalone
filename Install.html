@@ -385,6 +385,26 @@ img {
 <li>Run the <code>/opt/Reactor/Reactor</code> executable, or use the <code>/opt/Reactor/Reactor Standalone.desktop</code> desktop shortcut.</li>
 </ol>
 <p>Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.</p>
+<h2>Linking Reactor to Resolve/Fusion</h2>
+<p>After you run Reactor and accept the license terms, go to Reactor's &quot;File &gt; Connect Reactor to Fusion…&quot; menu item.</p>
+<p><img src="Images/Beta-6a-Connect-to-Fusion.png" alt="Connect to Fusion" /></p>
+<p>Follow the instructions in this dialog to make the Reactor downloaded content show up inside of DaVinci Resolve/Fusion.</p>
+<p><img src="Images/Beta-6b-Connect-Reactor-to-Fusion.png" alt="Connect Reactor to Fusion" /></p>
+<p>Click the &quot;Create Script&quot; button. A file named &quot;Reactor Setup.lua&quot; will be created on your computer's desktop folder. Open this folder up in a desktop folder browsing window.</p>
+<p>Start the Davinci Resolve/Fusion program. Navigate into an existing editing project. Then open up the &quot;Workspace &gt; Console&quot; menu item.</p>
+<p><img src="Images/Beta-7-Workspace-Console.png" alt="Workspace Console.png) " /></p>
+<p>The Console window will appear. This is the view where Lua and Python scripts can be run, by dragging them from the Desktop folder into the Console window.</p>
+<p><img src="Images/Beta-8-Console-Window.png" alt="Console Window" /></p>
+<p>Drag the following Lua script file from your desktop folder into the Console window to run it. You may have to re-open the Console window again after running the scripts to see the result.</p>
+<p><img src="Images/Beta-9-Console-Result.png" alt="Console Result" /></p>
+<p>If the setup process was successful the Console window will show the following message:</p>
+<p><img src="Images/Beta-9-Lua-Script.png" alt="Lua Script" /></p>
+<p>Quit DaVinci Resolve/Fusion. Then re-launch the software. You should now have Kartaverse installed on your system.</p>
+<p>The &quot;Reactor Setup.lua&quot; script created what is called a Fusion Pathmap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called &quot;Reactor:&quot; to the location on the disk where the files were downloaded to.</p>
+<p>If you want to see where the PathMap setting was configured in the program's settings, open up DaVinci Resolve's Fusion page. Navigate to the &quot;Fusion &gt; Fusion Settings…&quot; menu.</p>
+<p><img src="Images/Beta-10-Fusion-Settings.png" alt="Fusion Settings" /></p>
+<p>Then on the left sidebar select the &quot;PathMap&quot; entry. Scroll down in the main part of the view to the bottom of the list. You will see the User section where the &quot;Reactor:&quot; entry is defined. Also in the &quot;UserPaths:&quot;, and &quot;Scripts:&quot; sections of the dialog the Reactor entry is referenced.</p>
+<p><img src="Images/Beta-10-PathMaps.png" alt="PathMaps" /></p>
 <h1>Uninstalling Reactor</h1>
 <h2>macOS Uninstall</h2>
 <ol>
@@ -432,9 +452,11 @@ img {
 </li>
 </ol>
 <h2>Reactor Content Folder</h2>
-<p>When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name &quot;Reactor&quot;. This is what the Reactor content folder looks like in a typical usage scenario:</p>
+<p>When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name &quot;Reactor&quot;. The reason this is done is it means the same content can be made accessible to DaVinci Resolve, Fusion Studio, and Fusion Render Node.</p>
+<p>The home folder was chosen as it is not in a hidden directory, and the user as disk permissions to write files where without needing to take on administrator/sudo privileges.</p>
+<p>This is what the Reactor content folder looks like in a typical usage scenario:</p>
 <p><img src="Images/Reactor-Content-Folder.png" alt="Content folder" /></p>
-<p>This means with Reactor Standalone, the classic &quot;Reactor:&quot; PathMap folder entry is now created to point in your user account's home folder at:</p>
+<p>Inside of Fusion, the &quot;Reactor:&quot; PathMap folder entry has been updated compared to prior Reactor releases, so it now points to the content that is stored your user account's home folder at:</p>
 <p><code>$HOME/Reactor/</code></p>
 <p>On macOS this location is typically:<br />
 <code>/Users/&lt;Your User Account&gt;/Reactor/</code></p>
@@ -444,6 +466,9 @@ img {
 <code>/home/&lt;Your User Account&gt;/Reactor/</code></p>
 <h2>Reactor Installation Location</h2>
 <p>The Reactor &quot;File &gt; Settings...&quot; (macOS) and &quot;File &gt; Preferences&quot; (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.</p>
+<p><img src="Images/Reactor-Settings-Menu.png" alt="Prefs Menu" /></p>
+<p>You will likely want to keep Reactor's &quot;Reactor Install PathMap&quot; setting at either &quot;Home&quot; or to set the control to &quot;Custom&quot; and enter a custom filepath you wish to use.</p>
+<p><img src="Images/Reactor-Prefs.png" alt="Prefs" /></p>
 <p>Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. If you get locked out of Reactor from this action you will need to either edit the Reactor JSON preference file to modify the location or remove the JSON file to reset it back to the defaults.</p>
 </body>
 </html>
