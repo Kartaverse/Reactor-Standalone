@@ -83,14 +83,18 @@ The Console window will appear.
 
 This Console is the view where Lua and Python scripts can be run, by dragging them from the Desktop folder into the Console window. Drag the "Reactor Setup.lua" Lua script file from your desktop folder into the Console window to run it.
 
-
 ![Lua Script](Images/Beta-9-Lua-Script.png)
-
 
 You may have to re-open the Console window again after running the scripts to see the result. 
 If the setup process was successful the Console window will show the following message:
 
 ![Console Result](Images/Beta-9-Console-Result.png)
+
+```
+[Connect Reactor to Fusion]
+[Reactor: PathMap] '/Users/vfx/Reactor/'
+Reactor is now connected, restart Resolve/Fusion to finish the installation.
+```
 
 Quit DaVinci Resolve/Fusion. Then re-launch the software. You should now have Kartaverse installed on your system. 
 
