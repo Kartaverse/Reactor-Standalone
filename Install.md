@@ -1,5 +1,9 @@
 # Reactor Standalone Installation
 
+Reactor is provided as a zip-based portable install. You can technically expand the zip archive, and run the Reactor Standalone program's executable from any location you desire. 
+
+However it's recommended for new users to copy the software into your Applications/Program Files folder for simplicity.
+
 ## Downloads
 
 You can download the latest Reactor Standalone beta releases from the project's [GitHub Releases page](https://github.com/Kartaverse/Reactor-Standalone/releases).
@@ -8,42 +12,53 @@ You can download the latest Reactor Standalone beta releases from the project's 
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
 
-## Reactor Folder
+The Assets downloads are separate files per-operating system.  You will see the zip archives listed with filename that looks roughly like this:
 
-With Reactor Standalone the "Reactor:" PathMap folder is created in your user account's home folder at:
-
-`$HOME/Reactor/`
-
-On macOS this location is typically:  
-`/Users/<Your User Account>/Reactor/`
-
-On Windows this location is typically:  
-`C:\Users\<Your User Account>\Reactor\`
-
-On Linux this location is typically:  
-`/home/<Your User Account>/Reactor/`
+- reactor-for-linux-x64-v4-beta-23.zip
+- reactor-for-mac-universal-v4-beta-23.zip
+- reactor-for-win-x64-v4-beta-23.zip
 
 # Installing Reactor
 
 ## macOS Install
 
-1. Copy "Reactor.App" to your applications folder.
+1. Download the macOS compatible Zip archive with a name like `reactor-for-mac-universal-v<Version Number>.zip`.
 
-2. Double click on "Reactor.App" to launch the program.
+2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-mac-universal-v<Version Number>` folder. You will see a "Reactor.app" executable, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
 
-## Win Install
+3. Copy the "Reactor.app" file into your Applications folder. This will result in Reactor being installed to:  
+`/Applications/Reactor.app`.
 
-1. Copy the "Reactor" folder to your Program Files folder.
+4. To launch Reactor, double click on "Reactor.app" to start the program. When Reactor is running, you can add the program's icon to your macOS docs if you would like to make the program more accessible for future use.
 
-2. Double-click on the "Reactor.exe" executable inside the Reactor folder to launch the program.
+## Windows Install
+
+1. Download the Windows compatible Zip archive with a name like `reactor-for-win-x64-v<Version Number>.zip`.
+
+2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-win-x64-v<Version Number>` folder. You will see a "Reactor" folder that holds the Reactor Standalone executables, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
+
+3. Copy the "Reactor" folder to your Program Files folder. This will result in the Reactor executable being installed to:  
+`C:\Program Files\Reactor\Reactor.exe`.
+
+If you store your programs on another hard drive, copy the "Reactor" folder to that location instead.
+
+4. Double-click on the "Reactor.exe" executable inside the Reactor folder to launch the program. When Reactor is running, you can add the program's icon to your Windows taskbar if you would like to make the program more accessible for future use.
 
 ## Linux Install
 
-1. Copy the "Reactor" folder into your /opt/ folder.
+1. Download the Linux compatible Zip archive with a name like `reactor-for-win-x64-v<Version Number>.zip`.
 
-2. Run the "/opt/Reactor/Reactor" executable, or use the "/opt/Reactor/Reactor Standalone.desktop" desktop shortcut.
+2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-win-x64-v<Version Number>` folder. You will see a "Reactor" folder that holds the Reactor Standalone executables, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
+
+3. Copy the "Reactor" folder to your /opt/ folder. This will result in Reactor being installed to:  
+`/opt/Reactor/Reactor`. For convenience there is a `/opt/Reactor/Reactor Standalone.desktop` shortcut  file available.
+
+If you store your programs on another hard drive, copy the "Reactor" folder to that location instead.
+
+4. Run the `/opt/Reactor/Reactor` executable, or use the `/opt/Reactor/Reactor Standalone.desktop` desktop shortcut.
 
 Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.
+
 
 # Uninstalling Reactor
 
@@ -69,7 +84,7 @@ On Windows the JSON preference  file can be found at:
 2. Delete the Reactor content folder. On Windows this location is typically:  
 `C:\Users\<Your User Account>\Reactor\`
 
-3. Drag the "Reactor" Program Files folder into the trash can.
+3. Drag the "Reactor" Program Files folder into the recyling bin.
 
 ## Linux Uninstall
 
@@ -82,3 +97,40 @@ On Linux the JSON preference file can be found at:
 `/home/<Your User Account>/Reactor/`
 
 3. Drag the "Reactor" program folder from the "/opt/Reactor/" location into the trash can.
+
+
+## Reactor Content Folder
+
+When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name "Reactor". The reason this is done is it means the same content can be made accessible to DaVinci Resolve, Fusion Studio, and Fusion Render Node.
+
+The home folder was chosen as it is not in a hidden directory, and the user as disk permissions to write files where without needing to take on administrator/sudo privileges.
+
+This is what the Reactor content folder looks like in a typical usage scenario:
+
+![Content folder](Images/Reactor-Content-Folder.png)
+
+With Reactor Standalone v4, Fusion settings will have the "Reactor:" PathMap folder entry created so it points to the content stored your user account's home folder at:
+
+`$HOME/Reactor/`
+
+On macOS this location is typically:  
+`/Users/<Your User Account>/Reactor/`
+
+On Windows this location is typically:  
+`C:\Users\<Your User Account>\Reactor\`
+
+On Linux this location is typically:  
+`/home/<Your User Account>/Reactor/`
+
+## Reactor Installation Location
+
+The Reactor "File > Settings..." (macOS) and "File > Preferences" (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.
+
+![Prefs Menu](Images/Reactor-Settings-Menu.png)
+
+
+You will likely want to keep Reactor's "Reactor Install PathMap" setting at either "Home" or to set the control to "Custom" and enter a custom filepath you wish to use.
+
+![Prefs](Images/Reactor-Prefs.png)
+
+Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. If you get locked out of Reactor from this action you will need to either edit the Reactor JSON preference file to modify the location or remove the JSON file to reset it back to the defaults.

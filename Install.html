@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Documentation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* Stylesheet for MarkdownPad (http://markdownpad.com) */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/SourceCodePro-Regular.ttf');
+}
+
+@import url("fonts/font-awesome.min.css");
+
+body {
+  font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #1C1C1C;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+  color: #AAAAAA;
+  /* color: #7D8686; */
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 2px solid #D0D0D0;
+  color: #D0D0D0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #D0D0D0;
+}
+
+h4 {
+  font-size: 16px;
+  color: #D0D0D0;
+}
+
+h5 {
+  font-size: 14px;
+  color: #D0D0D0;
+}
+
+h6 {
+  font-size: 14px;
+  color: #D0D0D0;
+}
+
+h7 {
+  font-size: 14px;
+  color: #D0D0D0;
+  /* color: #277BA5; */
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+  color: #C4C4C4;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: "Source Code Pro", monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #262626;
+  background-color: #363636;
+  color: #D0D0D0;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #363636;
+  border: 1px solid #262626;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  /* border: 1px solid #ccc; */ 
+  /* padding: 6px 13px; */ 
+}
+
+table tr {
+  /* border-top: 1px solid #ccc; */
+  /* background-color: #363636; */
+  /* color: #D0D0D0; */
+}
+
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 80%;
+  /* max-width: 100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}</style>
+</head>
+<body><h1>Reactor Standalone Installation</h1>
+<p>Reactor is provided as a zip-based portable install. You can technically expand the zip archive, and run the Reactor Standalone program's executable from any location you desire.</p>
+<p>However it's recommended for new users to copy the software into your Applications/Program Files folder for simplicity.</p>
+<h2>Downloads</h2>
+<p>You can download the latest Reactor Standalone beta releases from the project's <a href="https://github.com/Kartaverse/Reactor-Standalone/releases">GitHub Releases page</a>.</p>
+<p><img src="Images/GitHub-Releases.png" alt="GitHub Releases" /></p>
+<p>Note: Click on the &quot;Assets&quot; section for the GitHub release to expand the file download section.</p>
+<p>The Assets downloads are separate files per-operating system.  You will see the zip archives listed with filename that looks roughly like this:</p>
+<ul>
+<li>reactor-for-linux-x64-v4-beta-23.zip</li>
+<li>reactor-for-mac-universal-v4-beta-23.zip</li>
+<li>reactor-for-win-x64-v4-beta-23.zip</li>
+</ul>
+<h1>Installing Reactor</h1>
+<h2>macOS Install</h2>
+<ol>
+<li>
+<p>Download the macOS compatible Zip archive with a name like <code>reactor-for-mac-universal-v&lt;Version Number&gt;.zip</code>.</p>
+</li>
+<li>
+<p>Expand this zip archive in your Downloads folder. Open up the newly created <code>reactor-for-mac-universal-v&lt;Version Number&gt;</code> folder. You will see a &quot;Reactor.app&quot; executable, along with usage documentation in a &quot;Docs&quot; folder, and other resources like custom fonts you can install.</p>
+</li>
+<li>
+<p>Copy the &quot;Reactor.app&quot; file into your Applications folder. This will result in Reactor being installed to:<br />
+<code>/Applications/Reactor.app</code>.</p>
+</li>
+<li>
+<p>To launch Reactor, double click on &quot;Reactor.app&quot; to start the program. When Reactor is running, you can add the program's icon to your macOS docs if you would like to make the program more accessible for future use.</p>
+</li>
+</ol>
+<h2>Windows Install</h2>
+<ol>
+<li>
+<p>Download the Windows compatible Zip archive with a name like <code>reactor-for-win-x64-v&lt;Version Number&gt;.zip</code>.</p>
+</li>
+<li>
+<p>Expand this zip archive in your Downloads folder. Open up the newly created <code>reactor-for-win-x64-v&lt;Version Number&gt;</code> folder. You will see a &quot;Reactor&quot; folder that holds the Reactor Standalone executables, along with usage documentation in a &quot;Docs&quot; folder, and other resources like custom fonts you can install.</p>
+</li>
+<li>
+<p>Copy the &quot;Reactor&quot; folder to your Program Files folder. This will result in the Reactor executable being installed to:<br />
+<code>C:\Program Files\Reactor\Reactor.exe</code>.</p>
+</li>
+</ol>
+<p>If you store your programs on another hard drive, copy the &quot;Reactor&quot; folder to that location instead.</p>
+<ol start="4">
+<li>Double-click on the &quot;Reactor.exe&quot; executable inside the Reactor folder to launch the program. When Reactor is running, you can add the program's icon to your Windows taskbar if you would like to make the program more accessible for future use.</li>
+</ol>
+<h2>Linux Install</h2>
+<ol>
+<li>
+<p>Download the Linux compatible Zip archive with a name like <code>reactor-for-win-x64-v&lt;Version Number&gt;.zip</code>.</p>
+</li>
+<li>
+<p>Expand this zip archive in your Downloads folder. Open up the newly created <code>reactor-for-win-x64-v&lt;Version Number&gt;</code> folder. You will see a &quot;Reactor&quot; folder that holds the Reactor Standalone executables, along with usage documentation in a &quot;Docs&quot; folder, and other resources like custom fonts you can install.</p>
+</li>
+<li>
+<p>Copy the &quot;Reactor&quot; folder to your /opt/ folder. This will result in Reactor being installed to:<br />
+<code>/opt/Reactor/Reactor</code>. For convenience there is a <code>/opt/Reactor/Reactor Standalone.desktop</code> shortcut  file available.</p>
+</li>
+</ol>
+<p>If you store your programs on another hard drive, copy the &quot;Reactor&quot; folder to that location instead.</p>
+<ol start="4">
+<li>Run the <code>/opt/Reactor/Reactor</code> executable, or use the <code>/opt/Reactor/Reactor Standalone.desktop</code> desktop shortcut.</li>
+</ol>
+<p>Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.</p>
+<h1>Uninstalling Reactor</h1>
+<h2>macOS Uninstall</h2>
+<ol>
+<li>Quit the Reactor app, and Resolve/Fusion. Then throw out the Reactor preferences.</li>
+</ol>
+<p>On macOS the JSON preference file can be found at:<br />
+<code>$HOME/Library/Application Support/Reactor/Reactor.json</code></p>
+<ol start="2">
+<li>
+<p>Delete the Reactor content folder. On macOS this location is typically:<br />
+<code>/Users/&lt;Your User Account&gt;/Reactor/</code></p>
+</li>
+<li>
+<p>Drag the &quot;Reactor.App&quot; file from your applications folder into the trash can.</p>
+</li>
+</ol>
+<h2>Win Uninstall</h2>
+<ol>
+<li>Quit the Reactor app, and Resolve/Fusion. Then throw out the Reactor preferences.</li>
+</ol>
+<p>On Windows the JSON preference  file can be found at:<br />
+<code>C:\Users\&lt;Your User Account&gt;\AppData\Roaming\Reactor.json</code></p>
+<ol start="2">
+<li>
+<p>Delete the Reactor content folder. On Windows this location is typically:<br />
+<code>C:\Users\&lt;Your User Account&gt;\Reactor\</code></p>
+</li>
+<li>
+<p>Drag the &quot;Reactor&quot; Program Files folder into the recyling bin.</p>
+</li>
+</ol>
+<h2>Linux Uninstall</h2>
+<ol>
+<li>Quit the Reactor app, and Resolve/Fusion. Then throw out the Reactor preferences.</li>
+</ol>
+<p>On Linux the JSON preference file can be found at:<br />
+<code>$HOME/.config/Reactor/Reactor.json</code></p>
+<ol start="2">
+<li>
+<p>Delete the Reactor content folder. On Linux this location is typically:<br />
+<code>/home/&lt;Your User Account&gt;/Reactor/</code></p>
+</li>
+<li>
+<p>Drag the &quot;Reactor&quot; program folder from the &quot;/opt/Reactor/&quot; location into the trash can.</p>
+</li>
+</ol>
+<h2>Reactor Content Folder</h2>
+<p>When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name &quot;Reactor&quot;. This is what the Reactor content folder looks like in a typical usage scenario:</p>
+<p><img src="Images/Reactor-Content-Folder.png" alt="Content folder" /></p>
+<p>This means with Reactor Standalone, the classic &quot;Reactor:&quot; PathMap folder entry is now created to point in your user account's home folder at:</p>
+<p><code>$HOME/Reactor/</code></p>
+<p>On macOS this location is typically:<br />
+<code>/Users/&lt;Your User Account&gt;/Reactor/</code></p>
+<p>On Windows this location is typically:<br />
+<code>C:\Users\&lt;Your User Account&gt;\Reactor\</code></p>
+<p>On Linux this location is typically:<br />
+<code>/home/&lt;Your User Account&gt;/Reactor/</code></p>
+<h2>Reactor Installation Location</h2>
+<p>The Reactor &quot;File &gt; Settings...&quot; (macOS) and &quot;File &gt; Preferences&quot; (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.</p>
+<p>Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. If you get locked out of Reactor from this action you will need to either edit the Reactor JSON preference file to modify the location or remove the JSON file to reset it back to the defaults.</p>
+</body>
+</html>
