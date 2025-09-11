@@ -12,10 +12,10 @@ The Reactor Package Manager has been revamped as a desktop application that work
 
 ## Table of Contents
 
-- [Installation](Install.html)
-- [General Usage](Usage.html)
-- [Beta Notes](BetaNotes.html)
-- [Change Log](ChangeLog.html)
+- [Installation](Install.md)
+- [General Usage](Usage.md)
+- [Beta Notes](BetaNotes.md)
+- [Change Log](ChangeLog.md)
 
 ## Special Thanks Credits
 
