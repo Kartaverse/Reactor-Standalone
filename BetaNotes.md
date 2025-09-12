@@ -6,7 +6,7 @@ After several months of development, Reactor 4 is now available as a standalone 
 
 Reactor is a package manager created by the We Suck Less Community for Fusion and Resolve. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
 
-![Reactor](Images/Beta-Reactor-4.png)
+![Reactor](Images/Reactor-4.png)
 
 The Reactor Package Manager allows you to easily install/update/remove 3rd party community made content. This simplifies the installation process and makes it possible to keep everything up to date. The Reactor toolset works with Blackmagic Design's Resolve Free, Resolve Studio, Fusion Studio, and Fusion Render Node software.
 
@@ -32,23 +32,23 @@ Note: It's helpful to be running your OS in "Dark Mode" if you are looking at th
 
 ### Step 1. If you have a chance to test the Reactor 4 program, what I'd like help with is if you could select the "Kartaverse" category on the left sidebar of the Reactor program. 
 
-![](Images/Beta-1-Sidebar.png)
+![](Images/1-Sidebar.png)
 
 Then click on the name of one of the packages in the list panel at the top center of the user interface to select it. 
 
-![Select a package](Images/Beta-2-Select-a-package.png)
+![Select a package](Images/2-Select-a-package.png)
 
 Use the "Edit > Select All" menu item, or the Select All (Control + A) hotkey to select all the packages in this view.
 
-![Edit Select All](Images/Beta-3A-Edit-Select-All.png)
+![Edit Select All](Images/3A-Edit-Select-All.png)
 
 When all the packages are selected the list panel will look like this:
 
-![Select All Complete](Images/Beta-3B-Select-All-Complete.png)
+![Select All Complete](Images/3B-Select-All-Complete.png)
 
 Click the "Install" button at the lower right of the user interface. This will tell Reactor to start installing each of the selected packages in an automated fashion.
 
-![Install Button](Images/Beta-4-Install-Button.png)
+![Install Button](Images/4-Install-Button.png)
 
 It would be very helpful if you could time things to roughly see how long it takes for the installation process to complete and note if there are any errors. When a package is installed you will see a small yellow checkbox next to the item's name.
 

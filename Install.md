@@ -78,31 +78,31 @@ Note: If you want to see diagnostic output, launch the Reactor executable from a
 
 After you run Reactor and accept the license terms, go to Reactor's "File > Connect Reactor to Fusion…" menu item.
 
-![Connect to Fusion](Images/Beta-6a-Connect-to-Fusion.png)
+![Connect to Fusion](Images/6a-Connect-to-Fusion.png)
 
 Follow the instructions in this dialog to make the Reactor content show up inside of DaVinci Resolve/Fusion.
 
-![Connect Reactor to Fusion](Images/Beta-6b-Connect-Reactor-to-Fusion.png)
+![Connect Reactor to Fusion](Images/6b-Connect-Reactor-to-Fusion.png)
 
 Click the "Create Script" button. A file named "Reactor Setup.lua" will be created on your computer's desktop folder. Open up this folder in a desktop folder browsing window.
 
 Start the Davinci Resolve/Fusion program. Navigate into an existing editing project. Then open up the "Workspace > Console" menu item.
 
 ![Workspace Console.png)
-](Images/Beta-7-Workspace-Console.png)
+](Images/7-Workspace-Console.png)
 
 The Console window will appear.
 
-![Console Window](Images/Beta-8-Console-Window.png)
+![Console Window](Images/8-Console-Window.png)
 
 This Console is the view where Lua and Python scripts can be run, by dragging them from the Desktop folder into the Console window. Drag the "Reactor Setup.lua" Lua script file from your desktop folder into the Console window to run it.
 
-![Lua Script](Images/Beta-9-Lua-Script.png)
+![Lua Script](Images/9-Lua-Script.png)
 
 You may have to re-open the Console window again after running the scripts to see the result. 
 If the setup process was successful the Console window will show the following message:
 
-![Console Result](Images/Beta-9-Console-Result.png)
+![Console Result](Images/9-Console-Result.png)
 
 ```
 [Connect Reactor to Fusion]
@@ -116,11 +116,11 @@ The "Reactor Setup.lua" script created what is called a Fusion Pathmap setting t
 
 If you want to see where the PathMap setting was configured in the program's settings, open up DaVinci Resolve's Fusion page. Navigate to the "Fusion > Fusion Settings…" menu.
 
-![Fusion Settings](Images/Beta-10-Fusion-Settings.png)
+![Fusion Settings](Images/10-Fusion-Settings.png)
 
 Then on the left sidebar select the "PathMap" entry. Scroll down in the main part of the view to the bottom of the list. You will see the User section where the "Reactor:" entry is defined. Also in the "UserPaths:", and "Scripts:" sections of the dialog the Reactor entry is referenced.
 
-![PathMaps](Images/Beta-10-PathMaps.png)
+![PathMaps](Images/10-PathMaps.png)
 
 
 # Uninstalling Reactor
@@ -197,3 +197,8 @@ You will likely want to keep Reactor's "Reactor Install PathMap" setting at eith
 Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. 
 
 If an error occurs when customizing the Reactor Install Pathmap, that results in getting locked out of the Reactor GUI, you will need to either edit the Reactor JSON preference file to modify the location in a text editor, or remove the JSON file to reset it back to the defaults.
+
+
+This line in the Reactor JSON preferences file is where Reactor saves the downloaded content to:
+
+![Reactor JSON](Images/Reactor-JSON-Install-Path.png)
