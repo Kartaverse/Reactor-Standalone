@@ -24,12 +24,18 @@ The Assets downloads are separate files per-operating system.  You will see the 
 
 1. Download the macOS compatible Zip archive with a name like `reactor-for-mac-universal-v<Version Number>.zip`.
 
+![Chrome Download](Images/Chrome-Download-macOS.png)
+
 2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-mac-universal-v<Version Number>` folder. You will see a "Reactor.app" executable, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
+
+![Expanded Zip Archive](Images/zip-archive-expanded-macOS.png)
 
 3. Copy the "Reactor.app" file into your Applications folder. This will result in Reactor being installed to:  
 `/Applications/Reactor.app`.
 
-4. To launch Reactor, double click on "Reactor.app" to start the program. The macOS gatekeeper system will ask you if you want to run the application the first time you launch it.
+![Install Folder](Images/Install-Folder-macOS.png)
+
+4. To launch Reactor, double click on the "Reactor.app" application icon to start the software. The macOS gatekeeper system will ask you if you want to run the application the first time you launch it.
 
 ![macOS Gatekeeper](Images/macOS-App-Downloaded-From-Internet.png)
 
