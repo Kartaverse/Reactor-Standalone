@@ -112,7 +112,7 @@ Reactor Icons are now Hi-DPI compatible with x1, x2 and x3 sized resources
 
 Tooltips added for Reactor Standalone UI elements
 
-The atom list view checkbox column for the installed state can now be sorted by ascending or descending approaches
+The atom list view checkbox column for the installed state can now be sorted by ascending or descending approaches.
 
 The Reactor "License Accepted" state is written to the reactor preferences. This means you won't be nagged in the future.
 
@@ -122,7 +122,7 @@ The "Cancel" button was renamed to "Clear Download Queue".
 
 The "Connect Reactor to Fusion" script output, when run in the Fusion Console window now completes with the text "Reactor is now connected, restart Resolve/Fusion to finish the installation".
 
-Added a version info field to the bottom right corner of the window.
+Added a version info field to the bottom right corner of the window
 
 ## 2025-08-28 Beta 16 Save Atoms Package List
 

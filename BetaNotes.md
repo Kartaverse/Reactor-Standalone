@@ -14,10 +14,11 @@ Among other things, Reactor is the way [KartaVR/Kartaverse](https://github.com/K
 
 ![Fusion Resolve Reactor Icons](Images/Fusion-Resolve-Reactor-Icon.png)
 
-## Development Todo List
+## Development To-Do List
 
 The following features will be completed before the official release ships:
 
+- Improve Dark Mode/Light Mode UI
 - Make folder creation permission errors graceful
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI.
 

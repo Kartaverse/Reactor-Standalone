@@ -12,11 +12,13 @@ You can download the latest Reactor Standalone beta releases from the project's 
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
 
-The Assets downloads are separate files per-operating system.  You will see the zip archives listed with filename that looks roughly like this:
+The Assets downloads are separate files per-operating system.  The zip archives have filenames that looks roughly like this:
 
 - reactor-for-linux-x64-v4-beta-23.zip
 - reactor-for-mac-universal-v4-beta-23.zip
 - reactor-for-win-x64-v4-beta-23.zip
+
+Note: The version number at the end of the filenames will change over time.
 
 # Installing Reactor
 
@@ -78,11 +80,11 @@ After you run Reactor and accept the license terms, go to Reactor's "File > Conn
 
 ![Connect to Fusion](Images/Beta-6a-Connect-to-Fusion.png)
 
-Follow the instructions in this dialog to make the Reactor downloaded content show up inside of DaVinci Resolve/Fusion.
+Follow the instructions in this dialog to make the Reactor content show up inside of DaVinci Resolve/Fusion.
 
 ![Connect Reactor to Fusion](Images/Beta-6b-Connect-Reactor-to-Fusion.png)
 
-Click the "Create Script" button. A file named "Reactor Setup.lua" will be created on your computer's desktop folder. Open this folder up in a desktop folder browsing window.
+Click the "Create Script" button. A file named "Reactor Setup.lua" will be created on your computer's desktop folder. Open up this folder in a desktop folder browsing window.
 
 Start the Davinci Resolve/Fusion program. Navigate into an existing editing project. Then open up the "Workspace > Console" menu item.
 
@@ -110,7 +112,7 @@ Reactor is now connected, restart Resolve/Fusion to finish the installation.
 
 Quit DaVinci Resolve/Fusion. Then re-launch the software. You should now have Kartaverse installed on your system. 
 
-The "Reactor Setup.lua" script created what is called a Fusion Pathmap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called "Reactor:" to the location on the disk where the files were downloaded to.
+The "Reactor Setup.lua" script created what is called a Fusion Pathmap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called "Reactor:" to the location on the disk where the files were downloaded.
 
 If you want to see where the PathMap setting was configured in the program's settings, open up DaVinci Resolve's Fusion page. Navigate to the "Fusion > Fusion Settings…" menu.
 
@@ -164,13 +166,11 @@ On Linux the JSON preference file can be found at:
 
 When Reactor Standalone downloads content, it stores the files on disk in your home folder by default in a sub-folder with the name "Reactor". The reason this is done is it means the same content can be made accessible to DaVinci Resolve, Fusion Studio, and Fusion Render Node.
 
-The home folder was chosen as it is not in a hidden directory, and the user as disk permissions to write files where without needing to take on administrator/sudo privileges.
-
 This is what the Reactor content folder looks like in a typical usage scenario:
 
 ![Content folder](Images/Reactor-Content-Folder.png)
 
-Inside of Fusion, the "Reactor:" PathMap folder entry has been updated compared to prior Reactor releases, so it now points to the content that is stored your user account's home folder at:
+With Reactor 4, the default Fusion based "Reactor:" PathMap folder location has changed so it points to the content that is stored in your user account's home folder at:
 
 `$HOME/Reactor/`
 
@@ -185,7 +185,7 @@ On Linux this location is typically:
 
 # Customizing the Reactor Installation Location
 
-The Reactor "File > Settings..." (macOS) and "File > Preferences" (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.
+The Reactor "File -> Settings..." (macOS) and "File -> Preferences" (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.
 
 ![Prefs Menu](Images/Reactor-Settings-Menu.png)
 
@@ -194,4 +194,6 @@ You will likely want to keep Reactor's "Reactor Install PathMap" setting at eith
 
 ![Prefs](Images/Reactor-Prefs.png)
 
-Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. If you get locked out of Reactor from this action you will need to either edit the Reactor JSON preference file to modify the location or remove the JSON file to reset it back to the defaults.
+Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. 
+
+If an error occurs when customizing the Reactor Install Pathmap, that results in getting locked out of the Reactor GUI, you will need to either edit the Reactor JSON preference file to modify the location in a text editor, or remove the JSON file to reset it back to the defaults.
