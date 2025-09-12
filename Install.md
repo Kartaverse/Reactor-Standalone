@@ -29,7 +29,13 @@ The Assets downloads are separate files per-operating system.  You will see the 
 3. Copy the "Reactor.app" file into your Applications folder. This will result in Reactor being installed to:  
 `/Applications/Reactor.app`.
 
-4. To launch Reactor, double click on "Reactor.app" to start the program. When Reactor is running, you can add the program's icon to your macOS docs if you would like to make the program more accessible for future use.
+4. To launch Reactor, double click on "Reactor.app" to start the program. The macOS gatekeeper system will ask you if you want to run the application the first time you launch it.
+
+![macOS Gatekeeper](Images/macOS-App-Downloaded-From-Internet.png)
+
+When Reactor is running, you can add the program's icon to your macOS docs if you would like to make the program more accessible for future use. This is done by right-clicking on the program's icon, navigate in the pop-up contextual menu to the "Options -> Keep in Dock" menu item.
+
+![Dock](Images/macOS-Add-To-Dock.png)
 
 ## Windows Install
 

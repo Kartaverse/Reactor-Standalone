@@ -203,11 +203,11 @@ If you are using Resolve (Free) downloaded from the Apple App Store, the previou
 
 Multi-selections are possible in the Reactor "List Panel" by clicking on a row then holding down the SHIFT modifier key. Pressing the "Install" button will then install the actively selected nodes. You can also press the Select All hotkey (Command + A on macOS) to select all of the atoms in the current atom category.
 
-![Atom Selection Options](images/AtomSelectionOptions.png)
+![Atom Selection Options](Images/AtomSelectionOptions.png)
 
 ### Manage your Donations
 
 There is a "Donate" view option that can be selected from the popup menu at the top-left of the user interface. This shows the atom packages you have installed that ask you to consider making a donation. The Reactor "Detail panel" lists the suggested donation amount and donation URL.
 
-![Donation](images/Donation.png)
+![Donation](Images/Donation.png)
 
