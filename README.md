@@ -13,7 +13,8 @@ The Reactor Package Manager has been revamped as a desktop application that work
 ## Table of Contents
 
 - [Installation](Install.md)
-- [General Usage](Usage.md)
+- [Fusion Usage](FusionUsage.md)
+- [LightWave Usage](LightWaveUsage.md)
 - [Beta Notes](BetaNotes.md)
 - [Change Log](ChangeLog.md)
 
@@ -24,7 +25,6 @@ You can download the latest Reactor Standalone beta releases from the project's 
 ![GitHub Releases](Images/GitHub-Releases.png)
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
-
 
 ## Special Thanks Credits
 

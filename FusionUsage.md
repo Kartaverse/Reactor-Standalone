@@ -210,4 +210,3 @@ Multi-selections are possible in the Reactor "List Panel" by clicking on a row t
 There is a "Donate" view option that can be selected from the popup menu at the top-left of the user interface. This shows the atom packages you have installed that ask you to consider making a donation. The Reactor "Detail panel" lists the suggested donation amount and donation URL.
 
 ![Donation](Images/Donation.png)
-
