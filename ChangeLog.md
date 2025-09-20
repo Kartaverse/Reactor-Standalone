@@ -1,5 +1,13 @@
 # Reactor Standalone Change Log
 
+## 2025-09-09 Beta 24 UI Tweaks
+
+Solved app icon color tint issue
+
+Added custom UI controls for buttons, dropdowns, and progressbars
+
+Pushed most error dialog messages into the "info bar" section at the lower left of the user interface
+
 ## 2025-09-09 Beta 23 UI Tweaks
 
 Pressing the Delete or Backspace key with atoms selected in the list panel will remove the atoms.

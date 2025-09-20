@@ -21,6 +21,8 @@ The following features will be completed before the official release ships:
 - Improve Dark Mode/Light Mode UI
 - Make folder creation permission errors graceful
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI.
+- Add Xbox One controller support
+- Validate multi-repo support works as expected
 
 ## Reactor Installation
 
