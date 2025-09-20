@@ -1,12 +1,14 @@
 # Reactor Standalone Change Log
 
-## 2025-09-09 Beta 24 UI Tweaks
+## 2025-09-20 Beta 24 UI Tweaks
+
+License dialog setting remembered correctly
+
+Pushed most error dialog messages into the "info bar" section at the lower left of the user interface
 
 Solved app icon color tint issue
 
 Added custom UI controls for buttons, dropdowns, and progressbars
-
-Pushed most error dialog messages into the "info bar" section at the lower left of the user interface
 
 ## 2025-09-09 Beta 23 UI Tweaks
 
