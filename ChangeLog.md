@@ -1,5 +1,11 @@
 # Reactor Standalone Change Log
 
+## 2025-09-21 Beta 25 Changes
+
+Added a "Help > Check for Updates..." menu item. It goes to the Reactor Standalone GitHub website's releases page where you can download the latest builds.
+
+Added animated sprites to the download queue status info shown in the List Panel
+
 ## 2025-09-20 Beta 24 UI Tweaks
 
 License dialog setting remembered correctly
