@@ -1,5 +1,11 @@
 # Reactor Standalone Change Log
 
+## 2025-09-22 Beta 27 Event Details
+
+The Reactor Standalone preferences window has a new "Info Bar Event Detail" multi-button control. It lets you adjust the logging detail that is output to the Info bar line at the bottom left of the main window, and to the standard IO output in the Terminal session.
+
+You have the option to set the "Info Bar Event Detail" control to "None", "Low", "Medium", and "High". Most generic error messages are set to output logging detail at the "Medium", and "High" state.
+
 ## 2025-09-21 Beta 26
 
 Solved a progress bar flickering issue that occurred when a series of small atom packages were downloading and the progress bar control was hidden/shown
