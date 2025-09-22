@@ -1,5 +1,19 @@
 # Reactor Standalone Change Log
 
+## 2025-09-21 Beta 26
+
+Solved a progress bar flickering issue that occurred when a series of small atom packages were downloading and the progress bar control was hidden/shown
+
+The State and Category "item count" numbers are now right-justified.
+
+List panel heading row sort direction "chevrons" have their vertical height positioned in the middle of the cell.
+
+The Search button turns yellow when active (meaning there is text entered in the search text field).
+
+LiveSearch preference saving updated. On macOS, a"Recent Items" list of search keywords can be selected by clicking on the search field magnifying glass.
+
+A "Downloads Finished" message is shown in the info bar when the full list of download queue tasks are completed
+
 ## 2025-09-21 Beta 25 Changes
 
 Added a "Help > Check for Updates..." menu item. It goes to the Reactor Standalone GitHub website's releases page where you can download the latest builds.
