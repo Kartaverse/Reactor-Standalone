@@ -1,5 +1,9 @@
 # Reactor Standalone Change Log
 
+## 2025-09-22 Beta 28 Event Details
+
+Added a new Console window. It is displayed using the "Scripts > Show Console" menu item, or the  "Shift + O" hotkey. The Console window uses the "Info Bar Event Detail" logging preference to define how much text is written to window.
+
 ## 2025-09-22 Beta 27 Event Details
 
 The Reactor Standalone preferences window has a new "Info Bar Event Detail" multi-button control. It lets you adjust the logging detail that is output to the Info bar line at the bottom left of the main window, and to the standard IO output in the Terminal session.
