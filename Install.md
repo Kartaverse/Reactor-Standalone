@@ -14,9 +14,9 @@ Note: Click on the "Assets" section for the GitHub release to expand the file do
 
 The Assets downloads are separate files per-operating system.  The zip archives have filenames that looks roughly like this:
 
-- reactor-for-linux-x64-v4-beta-24.zip
-- reactor-for-mac-universal-v4-beta-24.zip
-- reactor-for-win-x64-v4-beta-24.zip
+- reactor-for-linux-x64-v4-beta-26.zip
+- reactor-for-mac-universal-v4-beta-26.zip
+- reactor-for-win-x64-v4-beta-26.zip
 
 Note: The version number at the end of the filenames will change over time.
 
