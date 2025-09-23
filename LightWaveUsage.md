@@ -4,7 +4,7 @@ One of the new additions arriving with Reactor Standalone v4 is the creation of 
 
 [https://gitlab.com/WeSuckLess/reactor-for-lightwave](https://gitlab.com/WeSuckLess/reactor-for-lightwave)
 
-This is part of an effort to support LightWave content installation using atom packages. The LightWave compatible material is downloaded by Reactor Standaline and saved to the folder:
+This is part of an effort to support LightWave content installation using atom packages. The LightWave compatible material is downloaded by Reactor Standalone and saved to the folder:
 
 ```
 Reactor:/DeployLW/
@@ -12,29 +12,25 @@ Reactor:/DeployLW/
 
 ## Connecting Reactor to LightWave
 
-Select the "File -> Connect Reactor to LightWave..." menu item.
+Use the Reactor Standalone "Scripts > LightWave > ..." menu item to access the LightWave launcher shortcuts.
 
-![LW Menu](Images/LightWave-Connect-Menu.png)
-
-A "Connect Reactor to LightWave" window will appear that guides you through the creation of custom LightWave program launching shortcuts.
-
-![LW Connect-Window](Images/LightWave-Connect-Window.png)
+![LW Menu Items](Images/LightWave-Launcher-Shortcuts.png)
 
 ## LightWave CLI Parameters
 
-Included with Reactor are several pre-made LightWave launcher shortcuts that you can customize as needed.
+Included with Reactor are several pre-made LightWave launcher shortcuts that you can customize as needed. Editing the shortcut files allows you relink the launcher shortcuts to point at a different LightWave release.
 
 ### macOS Launchers
 
-- Reactor:/Launcher/Hub Reactor.command
-- Reactor:/Launcher/Layout Reactor.command
-- Reactor:/Launcher/Modeler Reactor.command
+- /Applications/Reactor.app/Contents/Resources/Hub_Reactor.command
+- /Applications/Reactor.app/Contents/Resources/Layout_Reactor.command
+- /Applications/Reactor.app/Contents/Resources/Modeler_Reactor.command
 
 ### Windows Launchers
 
-- Reactor:/Launcher/Hub Reactor.lnk
-- Reactor:/Launcher/Layout Reactor.lnk
-- Reactor:/Launcher/Modeler Reactor.lnk
+- C:\Program Files\Reactor\Reactor Resources\Hub_Reactor.lnk
+- C:\Program Files\Reactor\Reactor Resources\Layout_Reactor.lnk
+- C:\Program Files\Reactor\Reactor Resources\Modeler_Reactor.lnk
 
 ### Custom LightWave Plugin Folders
 
@@ -55,4 +51,3 @@ Shortcut Target Filepath Examples:
 ```
 "C:\Program Files\LightWaveDigital\LightWave_2025.0.2\bin\Hub.exe" -p%USERPROFILE%\Reactor\DeployLW
 ```
-

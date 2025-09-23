@@ -1,5 +1,25 @@
 # Reactor Standalone Change Log
 
+## 2025-09-23 Beta 30
+
+The Console window is now a floating window so it stays ontop of the other windows
+
+When text is appended to the Console window, the view scrolls to the bottom row automatically
+
+Added a "Tools > Reset Settings to Defaults" menu item that allows you to revert any changes that have been applied to the Reactor preferences file.
+
+Solved a List Panel row selection highlighting issue. This allows coloured background cell shading to be used. Also corrected a Left Panel row selection issue for the Repo, State, and Category regions.
+
+Shrunk the menu item based icons down to 28x28px
+
+Improved the visual feedback for the Left Panel based Reactor "Downloading" state number counter
+
+Updated the "Reactor-for-Lightwave" GitLab repo to include the "HelloReactor" atom package. The Reactor Standalone "Repo" List now works with content from the "Reactor-for-Lightwave" GitLab repo.
+
+Added a "Script > LightWave > " menu item that allows you to run the bundled LightWave launcher (.lnk and .sh) shortcut files. The shortcuts are stored inside the C:\Program Files\Reactor\Reactor Resources\" folder on Windows, and inside the "/Applications/Reactor.app/Contents/Resources/" folder on macOS. Editing the shortcut files allows you relink the launcher shortcuts to point at a different LightWave release.
+
+Created a Lua script for Reactor Classic. It provides a "Script > Reactor > Open Reactor Standalone..." menu item for use inside of Fusion Studio. This allows you to launch the Reactor Standalone window from inside of Fusion.
+
 ## 2025-09-22 Beta 29
 
 Refactored USB/Bluetooth device input handling code into action/events. Added Xbox Wireless Controller support.
