@@ -47,10 +47,22 @@ Note: If you enable the "USB and Bluetooth Gamepad Support" option you will be a
 - Circle Button = Next Highlights Panel Page
 - Triangle Button = Cancel Atom Package Download
 - Square Button = Refresh View
-- R1/R2 Buttons = Next/Previous Repository Popup
 - L1/L2 Buttons = Next/Previous Category List
+- R1/R2 Buttons = Next/Previous State List
 
-![Dualshock Controller](Images/DualShock.png)
+![DualSense Controller](Images/DualSense.png)
+
+### Xbox Wireless Controller Button Mappings:
+
+- Cross Up/Down Buttons = Next/Previous Atom Package
+- A Button = Install/Remove Atom Package
+- B Button = Next Highlights Panel Page
+- Y Button = Cancel Atom Package Download
+- X Button = Refresh View
+- LT Buttons = Next Category List
+- RT = Previous State List
+
+![Xbox Wireless Controller](Images/xbox_wireless.png)
 
 ### Kinesis JoyStick Controller Button Mappings:
 

@@ -1,5 +1,17 @@
 # Reactor Standalone Change Log
 
+## 2025-09-22 Beta 29
+
+Refactored USB/Bluetooth device input handling code into action/events. Added Xbox Wireless Controller support.
+
+When downloading queue tasks complete the status message "Ready" is shown in the info bar.
+
+Improved error handling when changing Reactor Install PathMap preferences
+
+"Reactor Preferences" window is now called "Reactor Settings" on macOS
+
+Adjusted "Clear Download Queue" button code so it no longer requires multiple clicks to purge queued items
+
 ## 2025-09-22 Beta 28 Event Details
 
 Added a new Console window. It is displayed using the "Scripts > Show Console" menu item, or the  "Shift + O" hotkey. The Console window uses the "Info Bar Event Detail" logging preference to define how much text is written to window.
