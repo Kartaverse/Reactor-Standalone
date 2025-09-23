@@ -4,6 +4,8 @@
 
 Refactored USB/Bluetooth device input handling code into action/events. Added Xbox Wireless Controller support.
 
+Refactored the "Infobar Event Details" code and moved the default level to "low"
+
 When downloading queue tasks complete the status message "Ready" is shown in the info bar.
 
 Improved error handling when changing Reactor Install PathMap preferences
