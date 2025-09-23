@@ -45,7 +45,13 @@ When Reactor is running, you can add the program's icon to your macOS docs if yo
 
 ![Dock](Images/macOS-Add-To-Dock.png)
 
-5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files. In the Font preview window that appears, press the "Install" button.
+5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files.
+
+![Font Folder](Images/Font-Folder-macOS.png)
+
+In the Font preview window that appears, press the "Install" button.
+
+![Font Install](Images/Font-Install-macOS.png)
 
 ## Windows Install
 
@@ -60,7 +66,13 @@ If you store your programs on another hard drive, copy the "Reactor" folder to t
 
 4. Double-click on the "Reactor.exe" executable inside the Reactor folder to launch the program. When Reactor is running, you can add the program's icon to your Windows taskbar if you would like to make the program more accessible for future use.
 
-5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files. In the Font preview window that appears, press the "Install" button.
+5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files. 
+
+![Font Folder](Images/Font-Folder-Win.png)
+
+In the Font preview window that appears, press the "Install" button.
+
+![Font Install](Images/Font-Install-Win.png)
 
 ## Linux Install
 
