@@ -26,11 +26,15 @@ Included with Reactor are several pre-made LightWave launcher shortcuts that you
 - /Applications/Reactor.app/Contents/Resources/Layout_Reactor.command
 - /Applications/Reactor.app/Contents/Resources/Modeler_Reactor.command
 
+![Shortcut Files](Images/LightWave-Shortcut-Files-macOS.png)
+
 ### Windows Launchers
 
 - C:\Program Files\Reactor\Reactor Resources\Hub_Reactor.lnk
 - C:\Program Files\Reactor\Reactor Resources\Layout_Reactor.lnk
 - C:\Program Files\Reactor\Reactor Resources\Modeler_Reactor.lnk
+
+![Shortcut Files](Images/LightWave-Shortcut-Files-Win.png)
 
 ### Custom LightWave Plugin Folders
 
