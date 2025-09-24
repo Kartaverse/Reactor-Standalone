@@ -14,9 +14,9 @@ Note: Click on the "Assets" section for the GitHub release to expand the file do
 
 The Assets downloads are separate files per-operating system.  The zip archives have filenames that looks roughly like this:
 
-- reactor-for-linux-x64-v4-beta-30.zip
-- reactor-for-mac-universal-v4-beta-30.zip
-- reactor-for-win-x64-v4-beta-30.zip
+- reactor-for-linux-x64-v4-beta-31.zip
+- reactor-for-mac-universal-v4-beta-31.zip
+- reactor-for-win-x64-v4-beta-31.zip
 
 Note: The version number at the end of the filenames will change over time.
 
@@ -45,6 +45,8 @@ When Reactor is running, you can add the program's icon to your macOS docs if yo
 
 ![Dock](Images/macOS-Add-To-Dock.png)
 
+Reactor takes about 5 seconds to start up, connect to the GitLab Reactor Repo, and download the atom package descriptions.
+
 5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files.
 
 ![Font Folder](Images/Font-Folder-macOS.png)
@@ -64,7 +66,17 @@ In the Font preview window that appears, press the "Install" button.
 
 If you store your programs on another hard drive, copy the "Reactor" folder to that location instead.
 
-4. Double-click on the "Reactor.exe" executable inside the Reactor folder to launch the program. When Reactor is running, you can add the program's icon to your Windows taskbar if you would like to make the program more accessible for future use.
+4. Double-click on the "Reactor.exe" executable inside the Reactor folder to launch the program. The Windows Defender SmartScreen system will ask you if you want to run the application the first time you launch it. Click on the "More Info" text. 
+
+![Windows 1](Images/windows-protect-your-pc-1.png)
+
+Then click on the "Run Anyway" button to continue.
+
+![Windows 2](Images/windows-protect-your-pc-2.png)
+
+Reactor takes about 5 seconds to start up, connect to the GitLab Reactor Repo, and download the atom package descriptions.
+
+When Reactor is running, you can add the program's icon to your Windows taskbar if you would like to make the program more accessible for future use.
 
 5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the files by double-clicking on the font files. 
 
@@ -86,6 +98,8 @@ In the Font preview window that appears, press the "Install" button.
 If you store your programs on another hard drive, copy the "Reactor" folder to that location instead.
 
 4. Run the `/opt/Reactor/Reactor` executable, or use the `/opt/Reactor/Reactor Standalone.desktop` desktop shortcut.
+
+Reactor takes about 5 seconds to start up, connect to the GitLab Reactor Repo, and download the atom package descriptions.
 
 Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.
 
