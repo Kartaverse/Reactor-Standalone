@@ -1,6 +1,6 @@
 # Reactor Standalone for Resolve/Fusion
 
-Reactor 4 Beta Build 30 - 2025-09-23  
+Reactor 4 Beta Build 31 - 2025-09-24  
 
 ## Overview
 

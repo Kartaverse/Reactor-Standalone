@@ -1,5 +1,11 @@
 # Reactor Standalone Change Log
 
+## 2025-09-24 Beta 31
+
+Clicking the Reactor logo in the Info bar zone now displays the Preferences window
+
+The List panel now has a horizontal scrollbar
+
 ## 2025-09-23 Beta 30
 
 The Console window is now a floating window so it stays ontop of the other windows
