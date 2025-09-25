@@ -108,11 +108,12 @@ The Reactor.json file is formatted like:
     "MainWindow": {
         "Top": 53,
         "Left": 0,
-        "Width": 1400,
-        "Height": 680
+        "Width": 1356,
+        "Height": 768
     },
     "LicenseAccepted": true,
-    "GamepadSupport": 1,
+    "InfobarEventDetails": 3,
+    "GamepadSupport": 0,
     "LiveSearch": false,
     "NewForDays": 30,
     "MarkAsNew": true,
@@ -121,7 +122,9 @@ The Reactor.json file is formatted like:
         "_Core": {
             "Name": "Reactor",
             "Protocol": "GitLab",
+            "Software": "Fusion",
             "LocalFile": "Reactor.json",
+            "DeployFolder": "Deploy",
             "BaseURL": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/",
             "URL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Reactor.json?ref_type=heads",
             "ZIPFilePrefix": "Reactor-master-Atoms-",
@@ -129,6 +132,21 @@ The Reactor.json file is formatted like:
                 "Name": "Reactor Highlights",
                 "LocalFile": "Highlights.json",
                 "URL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights.json?ref_type=heads"
+            }
+        },
+        "_LW": {
+            "Name": "Reactor",
+            "Protocol": "GitLab",
+            "Software": "LightWave",
+            "LocalFile": "Reactor.json",
+            "DeployFolder": "DeployLW",
+            "BaseURL": "https://gitlab.com/WeSuckLess/Reactor-for-LightWave/-/blob/main/Atoms/",
+            "URL": "https://gitlab.com/WeSuckLess/Reactor-for-LightWave/-/raw/main/JSON/Reactor.json?ref_type=heads",
+            "ZIPFilePrefix": "Reactor-for-LightWave-main-Atoms-",
+            "Highlights": {
+                "Name": "Reactor Highlights",
+                "LocalFile": "Highlights.json",
+                "URL": "https://gitlab.com/WeSuckLess/Reactor-for-LightWave/-/raw/main/JSON/Highlights.json?ref_type=heads"
             }
         }
     }
