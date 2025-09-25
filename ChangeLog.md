@@ -1,6 +1,6 @@
 # Reactor Standalone Change Log
 
-## 2025-09-23 Beta 32
+## 2025-09-25 Beta 32
 
 Improved Atom updating/removing code to use on-disk "Reactor:/Deploy/JSON/" atom file if it exists. This improves the way legacy atoms are updated.
 
