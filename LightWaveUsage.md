@@ -1,4 +1,8 @@
-# LightWave Usage
+# Reactor for LightWave Usage
+
+You can access LightWave compatible packages in Reactor Standalone by clicking on the word "LightWave" that is accessible at the top of the Left Panel.
+
+![Reactor for LightWave](Images/Reactor-for-LightWave.png)
 
 One of the new additions arriving with Reactor Standalone v4 is the creation of a GitLab hosted LightWave atom package repository:
 
