@@ -32,6 +32,10 @@ Reactor as it exists today would not be possible without the assistance of the f
 
 Pieter Van Houte, Andrew Hazelden, JustCropIt, Mathieu Reygaerts, Jacob Danell, Sander De Regt, Charlie, Dunn Lewis, Movalex, Raf Schoenmaekers, Kristof, Cédric, SirEdric, AndromedaGirl, Grant Petty, Steve Roberts, Daniel Koch, Peter Loveday, Rohit Gupta, and Peter Chamberlain
 
+## Content Repositories
+
+Reactor Standalone downloads atom packaged content from GitLab repos. You can view the atom files on the [Reactor for Fusion](https://gitlab.com/WeSuckLess/Reactor) and [Reactor for LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave) repos.
+
 ## Development To-Do List
 
 The following features will be completed before the official release ships:
