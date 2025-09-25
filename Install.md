@@ -119,8 +119,7 @@ Click the "Create Script" button. A file named "Reactor Setup.lua" will be creat
 
 Start the Davinci Resolve/Fusion program. Navigate into an existing editing project. Then open up the "Workspace > Console" menu item.
 
-![Workspace Console.png)
-](Images/7-Workspace-Console.png)
+![Workspace Console](Images/7-Workspace-Console.png)
 
 The Console window will appear.
 
@@ -152,7 +151,6 @@ If you want to see where the PathMap setting was configured in the program's set
 Then on the left sidebar select the "PathMap" entry. Scroll down in the main part of the view to the bottom of the list. You will see the User section where the "Reactor:" entry is defined. Also in the "UserPaths:", and "Scripts:" sections of the dialog the Reactor entry is referenced.
 
 ![PathMaps](Images/10-PathMaps.png)
-
 
 # Uninstalling Reactor
 
@@ -219,7 +217,6 @@ On Linux this location is typically:
 The Reactor "File -> Settings..." (macOS) and "File -> Preferences" (Win/Linux) menu can be used to change the Reactor content install location on your hard disk.
 
 ![Prefs Menu](Images/Reactor-Settings-Menu.png)
-
 
 You will likely want to keep Reactor's "Reactor Install PathMap" setting at either "Home" or to set the control to "Custom" and enter a custom filepath you wish to use.
 
