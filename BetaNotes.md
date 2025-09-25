@@ -18,17 +18,13 @@ Among other things, Reactor is the way [KartaVR/Kartaverse](https://github.com/K
 
 The following features will be completed before the official release ships:
 
-- Improve Dark Mode/Light Mode UI
-- Make folder creation permission errors graceful
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI.
-- Add Xbox One controller support
-- Validate multi-repo support works as expected
 
 ## Reactor Installation
 
 The Reactor docs cover the installation process for macOS/Windows/Linux.
 
-Note: It's helpful to be running your OS in "Dark Mode" if you are looking at the Reactor Standalone app's "Preference" window in private beta build 23. I am working now on another recompile that will adjust the text color in this window to solve the contrast issues.
+Note: It's helpful to be running your OS in "Dark Mode" if you are looking at the Reactor Standalone app's "Preference" window in the current beta builds. I am working on adjusting the text color in this window to solve the contrast issues.
 
 ## Reactor Testing Procedure
 
