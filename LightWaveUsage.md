@@ -6,7 +6,7 @@ You can access LightWave compatible packages in Reactor Standalone by clicking o
 
 One of the new additions arriving with Reactor Standalone v4 is the creation of a GitLab hosted LightWave atom package repository:
 
-[https://gitlab.com/WeSuckLess/reactor-for-lightwave](https://gitlab.com/WeSuckLess/reactor-for-lightwave)
+[https://gitlab.com/WeSuckLess/Reactor-for-LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave)
 
 This is part of an effort to support LightWave content installation using atom packages. The LightWave compatible material is downloaded by Reactor Standalone and saved to the folder:
 
