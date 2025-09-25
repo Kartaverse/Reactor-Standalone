@@ -1,5 +1,11 @@
 # Reactor Standalone Change Log
 
+## 2025-09-23 Beta 32
+
+Improved Atom updating/removing code to use on-disk "Reactor:/Deploy/JSON/" atom file if it exists. This improves the way legacy atoms are updated.
+
+When switching active repositories, the Left panel category list is rebuilt automatically
+
 ## 2025-09-24 Beta 31
 
 Clicking the Reactor logo in the Info bar zone now displays the Preferences window
