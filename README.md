@@ -15,6 +15,7 @@ The Reactor Package Manager has been revamped as a desktop application that work
 - [Installation](Install.md)
 - [Fusion Usage](FusionUsage.md)
 - [LightWave Usage](LightWaveUsage.md)
+- [Hotkeys](Hotkeys.md)
 - [Beta Notes](BetaNotes.md)
 - [Change Log](ChangeLog.md)
 
