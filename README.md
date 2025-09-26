@@ -43,3 +43,4 @@ The following features will be completed before the official release ships:
 
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI. This results in the Reactor Standalone for Windows release feeling laggier than the macOS and Linux builds.
 - It's helpful to be running your OS in "Dark Mode" if you are looking at the Reactor Standalone app's "Preference" window in the current beta builds. I am working on adjusting the text color in this window to solve the contrast issues.
+- The "Update" button code will be improved in the next build. Right now clicking the "Update" button in the actions bar zone will update all of the atom packages that are not in version. The next release will move it to updating only the currently selected atoms in the List panel.
