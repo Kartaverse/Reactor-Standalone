@@ -97,13 +97,19 @@ In the Font preview window that appears, press the "Install" button.
 
 If you store your programs on another hard drive, copy the "Reactor" folder to that location instead.
 
-4. Run the `/opt/Reactor/Reactor` executable, or use the `/opt/Reactor/Reactor Standalone.desktop` desktop shortcut.
+
+4. Let's add Reactor Standalone's desktop shortcut to the Linux "App" Share Folder. This will allow you to pin the Reactor to the desktop panel. Copy the file "/opt/Reactor/Reactor Standalone.deskop" into the "~/.local/share/applications" folder.
+
+Open the OS menu. Then navigate to the All Applications > Other section. Right -click on the Reactor Standalone icon. Then select the "Add to Panel" contextual menu item.
+
+
+5. Run the `/opt/Reactor/Reactor` executable, or use the `/opt/Reactor/Reactor Standalone.desktop` desktop shortcut.
 
 Reactor takes about 5 seconds to start up, connect to the GitLab Reactor Repo, and download the atom package descriptions.
 
 Note: If you want to see diagnostic output, launch the Reactor executable from a Terminal window. Status information from Reactor will be printed to the Terminal as the program is used.
 
-5. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the font files manually.
+6. The Zip archive includes a Fonts folder that holds the "Inter" and "Roboto" Google Web Fonts. Install the font files manually.
 
 ## Linking Reactor to Resolve/Fusion
 

@@ -2,7 +2,8 @@
 
 Reactor supports the use of the following hotkeys:
 
-- Remove selected atom package (Delete/Backspace)
+- Select all atoms in List panel (Control/Command + A)
+- Remove selected atom package in List panel (Delete/Backspace)
 - Refresh List panel (Control/Command + R)
 - Open Console window (Shift + 0)
 - Open Preferences window (Control/Command + ,)
