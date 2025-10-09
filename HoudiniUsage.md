@@ -1,17 +1,35 @@
 # Reactor for Houdini Usage
 
-![Reactor for Houdini](Images/Reactor-for-Houdini.png)
-
-You can access Houdini compatible packages in Reactor Standalone by clicking on the word "Houdini" that is accessible at the top of the Left Panel.
+Reactor Standalone now supports SideFX Houdini 21.0. You can access Houdini compatible packages in Reactor Standalone by clicking on the word "Houdini" that is accessible at the top of the Left Panel.
 
 The GitLab repository that hosts the Reactor for Houdini atom packages is located at:  
 [https://gitlab.com/WeSuckLess/Reactor-for-Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
 
-Reactor Standalone downloads the SideFX compatible content to the folder:
+
+![Reactor for Houdini](Images/Reactor-for-Houdini.png)
+
+## Reactor Downloads Folder
+
+
+With Reactor 4, the default based "Reactor" folder location has changed so it points to the content that is stored in your user account's home folder at:
+
+`$HOME/Reactor/`
+
+
+Reactor Standalone downloads the SideFX compatible content to the sub-folder located at:
 
 ```
 Reactor:/DeployHoudini/
 ```
+
+On macOS this means the HOUDINI_PATH env var is typically set to:  
+`/Users/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
+
+On Windows  this means the HOUDINI_PATH env var is typically set to:  
+`C:\Users\<Your User Account>\Reactor\DeployHoudinihoudini/XX.Y/`
+
+On Linux this means the HOUDINI_PATH env var is typically set to:  
+`/home/<Your User Account>/Reactor/DeployHoudinihoudini/XX.Y/`
 
 ## Connecting Reactor to Houdini
 
