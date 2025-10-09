@@ -6,7 +6,9 @@ Added Houdini as a new Reactor Standalone repo source. The atom packaged content
 
 Removed the List panel tooltip text so it doesn't distract you when selecting atoms.
 
-Updated Reactor Classic from v3.12 to v4. Added a new "Reactor > Open Reactor Standalone..." menu item. This will allow you to launch Reactor Standalone from inside of a Resolve/Fusion session. If you do not have Reactor Standalone installed you will see a web browser launch that redirects you to the Reactor Standalone GitHub repo's "Releases" page.
+Updated Reactor Classic from v3.14 to v4.  
+- Added a new "Reactor > Open Reactor Standalone..." menu item. This will allow you to launch Reactor Standalone from inside of a Resolve/Fusion session. If you do not have Reactor Standalone installed you will see a web browser launch that redirects you to the Reactor Standalone GitHub repo's "Releases" page.
+- Updated the Reactor Installer so it skips over failed "Config:/Reactor.fu" errors and keeps on going through the rest of the install process. This helps custom install location based installs avoid an issue when UTF8 or accented characters are present in the home folder name.
 
 ## 2025-09-25 Beta 32
 
