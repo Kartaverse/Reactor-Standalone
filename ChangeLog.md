@@ -1,5 +1,13 @@
 # Reactor Standalone Change Log
 
+## 2025-09-25 Beta 33
+
+Added Houdini as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)" GitLab repo.
+
+Removed the List panel tooltip text so it doesn't distract you when selecting atoms.
+
+Updated Reactor Classic from v3.12 to v4. Added a new "Reactor > Open Reactor Standalone..." menu item. This will allow you to launch Reactor Standalone from inside of a Resolve/Fusion session. If you do not have Reactor Standalone installed you will see a web browser launch that redirects you to the Reactor Standalone GitHub repo's "Releases" page.
+
 ## 2025-09-25 Beta 32
 
 Improved Atom updating/removing code to use on-disk "Reactor:/Deploy/JSON/" atom file if it exists. This improves the way legacy atoms are updated.

@@ -101,7 +101,6 @@ If you store your programs on another hard drive, copy the "Reactor" folder to t
 
 Open the OS menu. Then navigate to the "All Applications > Other" section. Right-click on the Reactor Standalone icon. Then select the "Add to Panel" contextual menu item.
 
-
 5. Run the `/opt/Reactor/Reactor` executable, or use the `/opt/Reactor/Reactor Standalone.desktop` desktop shortcut.
 
 Reactor takes about 5 seconds to start up, connect to the GitLab Reactor Repo, and download the atom package descriptions.
