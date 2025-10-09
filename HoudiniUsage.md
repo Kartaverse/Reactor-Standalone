@@ -6,10 +6,11 @@ The GitLab repository that hosts the Reactor for Houdini atom packages is locate
 [https://gitlab.com/WeSuckLess/Reactor-for-Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
 
 
+## Screenshot
+
 ![Reactor for Houdini](Images/Reactor-for-Houdini.png)
 
 ## Reactor Downloads Folder
-
 
 With Reactor 4, the default based "Reactor" folder location has changed so it points to the content that is stored in your user account's home folder at:
 
