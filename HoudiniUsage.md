@@ -19,13 +19,13 @@ Reactor Standalone downloads the SideFX compatible content to the sub-folder loc
 
 `Reactor:/DeployHoudini/`
 
-On Windows this means the HOUDINI_PATH env var is typically set to:  
+On Windows this means the HOUDINI_PATH env var is typically set to include:  
 `C:\Users\<Your User Account>\Reactor\DeployHoudini\houdini\XX.Y\`
 
-On macOS this means the HOUDINI_PATH env var is typically set to:  
+On macOS this means the HOUDINI_PATH env var is typically set to include:  
 `/Users/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
 
-On Linux this means the HOUDINI_PATH env var is typically set to:  
+On Linux this means the HOUDINI_PATH env var is typically set to include:  
 `/home/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
 
 ## Connecting Reactor to Houdini
