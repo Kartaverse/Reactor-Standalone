@@ -46,6 +46,13 @@ REACTORTREE=$USERPROFILE/Reactor/DeployHoudini/houdini
 HOUDINI_PATH=$REACTORTREE\21.0;&
 ```
 
+or
+
+```
+REACTORTREE=$HOME/Reactor/DeployHoudini/houdini
+HOUDINI_PATH=$REACTORTREE\21.0;&
+```
+
 macOS:
 
 ```
