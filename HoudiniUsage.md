@@ -26,7 +26,7 @@ On macOS this means the HOUDINI_PATH env var is typically set to:
 `/Users/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
 
 On Linux this means the HOUDINI_PATH env var is typically set to:  
-`/home/<Your User Account>/Reactor/DeployHoudinihoudini/XX.Y/`
+`/home/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
 
 ## Connecting Reactor to Houdini
 
