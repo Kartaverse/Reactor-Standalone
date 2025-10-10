@@ -11,7 +11,7 @@ The GitLab repository that hosts the Reactor for Houdini atom packages is locate
 
 ## Reactor Downloads Folder
 
-With Reactor 4, the default based "Reactor" folder location has changed so it points to the content that is stored in your user account's home folder at:
+With Reactor 4, the default "Reactor" folder location has changed so it points to the content that is stored in your user account's home folder at:
 
 `$HOME/Reactor/`
 
@@ -20,7 +20,7 @@ Reactor Standalone downloads the SideFX compatible content to the sub-folder loc
 `Reactor:/DeployHoudini/`
 
 On Windows this means the HOUDINI_PATH env var is typically set to:  
-`C:\Users\<Your User Account>\Reactor\DeployHoudinihoudini\XX.Y\`
+`C:\Users\<Your User Account>\Reactor\DeployHoudini\houdini\XX.Y\`
 
 On macOS this means the HOUDINI_PATH env var is typically set to:  
 `/Users/<Your User Account>/Reactor/DeployHoudini/houdini/XX.Y/`
@@ -30,11 +30,12 @@ On Linux this means the HOUDINI_PATH env var is typically set to:
 
 ## Connecting Reactor to Houdini
 
-The [Houdini documentation](https://www.sidefx.com/docs/houdini/basics/config_env.html) covers the process of editing environment variables through the use of a "houdini.env" file. Reactor for Houdini usage requires you to manually add the path to the Reactor downloaded Houdini content to the "HOUDINI_PATH" environment variable.
+The [Houdini documentation](https://www.sidefx.com/docs/houdini/basics/config_env.html) covers the process of editing environment variables through the use of a "houdini.env" file.
+
 
 ![Houdini.env](Images/Houdini-Env-File.png)
 
-If you have Reactor set to download content to your user account's home folder in a subdirectory named "Reactor", then you would edit the Houdini.env file to append the following details to the text file:
+Reactor for Houdini usage requires you to manually edit the "houdini.env" file to add the Reactor "DeployHoudini" folder path to the "HOUDINI_PATH" environment variable. If you have Reactor set to download content to your user account's home folder in a subdirectory named "Reactor", then you would edit the Houdini.env file to append the following details to the text file:
 
 (Information Still Being Validated)
 
