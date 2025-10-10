@@ -37,19 +37,10 @@ The [Houdini documentation](https://www.sidefx.com/docs/houdini/basics/config_en
 
 Reactor for Houdini usage requires you to manually edit the "houdini.env" file to add the Reactor "DeployHoudini" folder path to the "HOUDINI_PATH" environment variable. If you have Reactor set to download content to your user account's home folder in a subdirectory named "Reactor", then you would edit the houdini.env file to append the following details to the text file:
 
-(Information Still Being Validated)
-
 Windows:
 
 ```
-REACTORTREE=$USERPROFILE/Reactor/DeployHoudini/houdini
-HOUDINI_PATH=$REACTORTREE\21.0;&
-```
-
-or
-
-```
-REACTORTREE=$HOME/Reactor/DeployHoudini/houdini
+REACTORTREE=$HOME\Reactor\DeployHoudini\houdini
 HOUDINI_PATH=$REACTORTREE\21.0;&
 ```
 
@@ -66,3 +57,5 @@ Linux:
 REACTORTREE=$HOME/Reactor/DeployHoudini/houdini
 HOUDINI_PATH=$REACTORTREE/21.0:&
 ```
+
+If you want to decode the active Houdini environment variables check out the "hconfig" program.
