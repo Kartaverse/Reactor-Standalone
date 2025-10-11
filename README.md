@@ -4,7 +4,7 @@ Reactor 4 Beta Build 33 - 2025-10-09
 
 ## Overview
 
-Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
+Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, OpenFX Plugins, Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
 
 The Reactor Package Manager has been revamped as a desktop application that works seamlessly on macOS, Windows, and Linux.
 
@@ -41,6 +41,7 @@ Reactor Standalone downloads atom packaged content from GitLab repos. You can vi
 - [Reactor for Fusion](https://gitlab.com/WeSuckLess/Reactor)
 - [Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
 - [Reactor for LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave)
+- [Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)
 
 ## Development To-Do List
 
