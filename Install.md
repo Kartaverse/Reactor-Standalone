@@ -12,7 +12,7 @@ You can download the latest Reactor Standalone beta releases from the project's 
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
 
-The Assets downloads are separate files per-operating system.  The zip archives have filenames that looks roughly like this:
+The Assets downloads are separate files per-operating system.  The zip archives have filenames that look roughly like this:
 
 - reactor-for-linux-x64-v4-beta-33.zip
 - reactor-for-mac-universal-v4-beta-33.zip
@@ -41,7 +41,7 @@ Note: The version number at the end of the filenames will change over time.
 
 ![macOS Gatekeeper](Images/macOS-App-Downloaded-From-Internet.png)
 
-When Reactor is running, you can add the program's icon to your macOS docs if you would like to make the program more accessible for future use. This is done by right-clicking on the program's icon, navigate in the pop-up contextual menu to the "Options -> Keep in Dock" menu item.
+When Reactor is running, you can add the program's icon to your macOS dock if you would like to make the program more accessible for future use. This is done by right-clicking on the program's icon in the dock, navigate in the pop-up contextual menu to the "Options -> Keep in Dock" menu item.
 
 ![Dock](Images/macOS-Add-To-Dock.png)
 
@@ -146,7 +146,7 @@ Reactor is now connected, restart Resolve/Fusion to finish the installation.
 
 Quit DaVinci Resolve/Fusion. Then re-launch the software. You should now have Kartaverse installed on your system. 
 
-The "Reactor Setup.lua" script created what is called a Fusion Pathmap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called "Reactor:" to the location on the disk where the files were downloaded.
+The "Reactor Setup.lua" script created what is called a Fusion PathMap setting that tells DaVinci Resolve where to find the Reactor content. It points the PathMap shortcut called "Reactor:" to the location on the disk where the files were downloaded.
 
 If you want to see where the PathMap setting was configured in the program's settings, open up DaVinci Resolve's Fusion page. Navigate to the "Fusion > Fusion Settings…" menu.
 
@@ -228,7 +228,7 @@ You will likely want to keep Reactor's "Reactor Install PathMap" setting at eith
 
 Keep in mind you need to have write permissions to the folder where you want Reactor to save the content to. If you do not have disk write permissions you will see error messages in the Reactor dialog when changing the settings. 
 
-If an error occurs when customizing the Reactor Install Pathmap, that results in getting locked out of the Reactor GUI, you will need to either edit the Reactor JSON preference file to modify the location in a text editor, or remove the JSON file to reset it back to the defaults.
+If an error occurs when customizing the Reactor Install PathMap, that results in getting locked out of the Reactor GUI, you will need to either edit the Reactor JSON preference file to modify the location in a text editor, or remove the JSON file to reset it back to the defaults.
 
 
 This line in the Reactor JSON preferences file is where Reactor saves the downloaded content to:
