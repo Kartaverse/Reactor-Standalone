@@ -1,6 +1,8 @@
 # Reactor Standalone Change Log
 
-## 2025-09-25 Beta 33
+## 2025-10-12 Beta 33
+
+Turned off Atoms List DragDrop handling support on Windows to avoid a compatibility issue. Re-uploaded the Windows Beta 33 release.
 
 Added Houdini as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)" GitLab repo.
 
