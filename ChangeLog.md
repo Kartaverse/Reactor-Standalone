@@ -1,5 +1,9 @@
 # Reactor Standalone Change Log
 
+## 2025-10-12 Beta 34
+
+Added OpenFX as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)" GitLab repo.
+
 ## 2025-10-12 Beta 33
 
 Turned off Atoms List DragDrop handling support on Windows to avoid a compatibility issue. Re-uploaded the Windows Beta 33 release.
