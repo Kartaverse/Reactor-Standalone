@@ -4,6 +4,22 @@
 
 Added OpenFX as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)" GitLab repo.
 
+Added "Bin" category atom package entries for downloading the BMD Resolve/Fusion software from the BMD Support Center website. This uses a new "Atom" package URL tag that opens the default web browser to the defined webpage address. The URL tag has per-OS-platform support via nested Lua tables:
+
+```
+URL = {
+	Windows = {
+		"https://www.blackmagicdesign.com/support/download/54fc7e36d6fe466d95bc2e583c359582/Windows",
+	},
+	Mac = {
+		"https://www.blackmagicdesign.com/support/download/54fc7e36d6fe466d95bc2e583c359582/Mac%20OS%20X",
+	},
+	Linux = {
+		"https://www.blackmagicdesign.com/support/download/54fc7e36d6fe466d95bc2e583c359582/Linux",
+	},
+},
+```
+
 ## 2025-10-12 Beta 33
 
 Turned off Atoms List DragDrop handling support on Windows to avoid a compatibility issue. Re-uploaded the Windows Beta 33 release.
