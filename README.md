@@ -1,10 +1,10 @@
 # Reactor Standalone for Resolve/Fusion
 
-Reactor 4 Beta Build 33 - 2025-10-12  
+Reactor 4 Beta Build 34 - 2025-10-21  
 
 ## Overview
 
-Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, OpenFX Plugins, Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
+Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, OpenFX Plugins, JangaFX, Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
 
 The Reactor Package Manager has been revamped as a desktop application that works seamlessly on macOS, Windows, and Linux.
 
@@ -16,6 +16,7 @@ The Reactor Package Manager has been revamped as a desktop application that work
 - [Fusion Usage](FusionUsage.md)
 - [Houdini Usage](HoudiniUsage.md)
 - [LightWave Usage](LightWaveUsage.md)
+- [OpenFX Usage](OpenFXUsage.md)
 - [Hotkeys](Hotkeys.md)
 - [Beta Notes](BetaNotes.md)
 - [Change Log](ChangeLog.md)
@@ -42,6 +43,7 @@ Reactor Standalone downloads atom packaged content from GitLab repos. You can vi
 - [Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
 - [Reactor for LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave)
 - [Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)
+- [Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)
 
 ## Development To-Do List
 
