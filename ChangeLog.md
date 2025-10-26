@@ -1,6 +1,14 @@
 # Reactor Standalone Change Log
 
-## 2025-10-12 Beta 34
+## 2025-10-26 Beta 35
+
+Added JangaFX (EmberGen, LiquiGen, GeoGen, and IlluGen) as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)" GitLab repo.
+
+Started the registration process to get a Windows OS based code signing certificate workflow in place.
+
+Added error handling for an error state that could occur when changing the active "repo" in the left panel. This repo switching error state previously resulted in an "KeyNotFoundException" error dialog that would end the session.
+
+## 2025-10-21 Beta 34
 
 Added OpenFX as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)" GitLab repo.
 

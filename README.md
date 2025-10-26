@@ -1,6 +1,6 @@
 # Reactor Standalone for Resolve/Fusion
 
-Reactor 4 Beta Build 34 - 2025-10-21  
+Reactor 4 Beta Build 35 - 2025-10-26  
 
 ## Overview
 
@@ -15,6 +15,7 @@ The Reactor Package Manager has been revamped as a desktop application that work
 - [Installation](Install.md)
 - [Fusion Usage](FusionUsage.md)
 - [Houdini Usage](HoudiniUsage.md)
+- [JangaFX Usage](JangaFXUsage.md)
 - [LightWave Usage](LightWaveUsage.md)
 - [OpenFX Usage](OpenFXUsage.md)
 - [Hotkeys](Hotkeys.md)
@@ -41,9 +42,9 @@ Reactor Standalone downloads atom packaged content from GitLab repos. You can vi
 
 - [Reactor for Fusion](https://gitlab.com/WeSuckLess/Reactor)
 - [Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
+- [Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)
 - [Reactor for LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave)
 - [Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)
-- [Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)
 
 ## Development To-Do List
 
