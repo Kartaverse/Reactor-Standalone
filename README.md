@@ -8,7 +8,7 @@ Reactor is a package manager created by the [We Suck Less Community](https://www
 
 The Reactor Package Manager has been revamped as a desktop application that works seamlessly on macOS, Windows, and Linux.
 
-![Reactor UI Screenshot](Images/Reactor_Standalone.png)
+![Reactor UI Screenshot](Images/Reactor-Standalone.png)
 
 ## Table of Contents
 
