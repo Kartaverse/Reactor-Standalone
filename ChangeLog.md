@@ -1,5 +1,11 @@
 # Reactor Standalone Change Log
 
+## 2025-11-05 Beta 36
+
+Added a new Reactor Standalone repo source for VFX pipeline centric tools. The atom packaged content is sourced from the "[Reactor for Pipelines](https://gitlab.com/WeSuckLess/Reactor-for-Pipelines)" GitLab repo.
+
+Added the concept of a "JSON/Repo.json" file to Reactor repositories. This will help support a "Repo Editor" GUI in a future update to Reactor Standalone.
+
 ## 2025-10-26 Beta 35
 
 Added JangaFX (EmberGen, LiquiGen, GeoGen, and IlluGen) as a new Reactor Standalone repo source. The atom packaged content is sourced from the "[Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)" GitLab repo.
