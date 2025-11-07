@@ -14,6 +14,7 @@ The Reactor Package Manager has been revamped as a desktop application that work
 
 - [Installation](Install.md)
 - [Fusion Usage](FusionUsage.md)
+- [Assimilate Usage](AssimilateUsage.md)
 - [Houdini Usage](HoudiniUsage.md)
 - [JangaFX Usage](JangaFXUsage.md)
 - [LightWave Usage](LightWaveUsage.md)
