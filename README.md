@@ -1,10 +1,10 @@
 # Reactor Standalone for Resolve/Fusion
 
-Reactor 4 Beta Build 36 - 2025-11-05  
+Reactor 4 Beta Build 37 - 2025-11-07  
 
 ## Overview
 
-Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, OpenFX Plugins, JangaFX, Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
+Reactor is a package manager created by the [We Suck Less Community](https://www.steakunderwater.com/wesuckless/viewforum.php?f=32) for BMD Fusion Studio, Resolve (Free), Resolve Studio, Assimilate Scratch and LiveFX, OpenFX, JangaFX, SideFX Houdini, and LightWave. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository.
 
 The Reactor Package Manager has been revamped as a desktop application that works seamlessly on macOS, Windows, and Linux.
 
@@ -41,6 +41,7 @@ Pieter Van Houte, Andrew Hazelden, JustCropIt, Mathieu Reygaerts, Jacob Danell, 
 Reactor Standalone downloads atom packaged content from GitLab repos. You can view the individual atom files on the official repos here:
 
 - [Reactor for Fusion](https://gitlab.com/WeSuckLess/Reactor)
+- [Reactor for Assimilate](https://gitlab.com/WeSuckLess/Reactor-for-Assimilate)
 - [Reactor for Houdini](https://gitlab.com/WeSuckLess/Reactor-for-Houdini)
 - [Reactor for JangaFX](https://gitlab.com/WeSuckLess/Reactor-for-JangaFX)
 - [Reactor for LightWave](https://gitlab.com/WeSuckLess/Reactor-for-LightWave)
@@ -52,7 +53,6 @@ Reactor Standalone downloads atom packaged content from GitLab repos. You can vi
 The following features will be completed before the official release ships:
 
 - A "Repo Editor" GUI is under development now. This provides control over the repos that show up in the Reactor left panel. The "Repo Editor" also allows you to add your own custom repositories that make it easy to host atoms for yourself or your team.
-- Windows OS code signing
 - Speed up Reactor startup times for the initial syncing. Right now it can take 5 to 10 seconds on a Windows PC for Reactor to launch. Maybe a startup progress dialog would be useful.
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI. This results in the Reactor Standalone for Windows release feeling laggier than the macOS and Linux builds.
 - It's helpful to be running your OS in "Dark Mode" if you are looking at the Reactor Standalone app's "Preference" window in the current beta builds. I am working on adjusting the text color in this window to solve the contrast issues.
