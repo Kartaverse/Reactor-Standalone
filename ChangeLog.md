@@ -4,6 +4,8 @@
 
 Added a new Reactor Standalone repo source for Assimilate Scratch and LiveFX. The atom packaged content is sourced from the "[Reactor for Assimilate](https://gitlab.com/WeSuckLess/Reactor-for-Assimilate)" GitLab repo.
 
+Adjusted the vertical sizing of the "left panel" GUI items to allow space for more entries in the repo section.
+
 ## 2025-11-05 Beta 36
 
 Added a new Reactor Standalone repo source for VFX pipeline centric tools. The atom packaged content is sourced from the "[Reactor for Pipelines](https://gitlab.com/WeSuckLess/Reactor-for-Pipelines)" GitLab repo.
