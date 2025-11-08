@@ -49,6 +49,10 @@ Reactor Standalone downloads atom packaged content from GitLab repos. You can vi
 - [Reactor for OpenFX](https://gitlab.com/WeSuckLess/Reactor-for-OpenFX)
 - [Reactor for Pipelines](https://gitlab.com/WeSuckLess/Reactor-for-Pipelines)
 
+## Reactor Docs Site
+
+The [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/) website allows you to easily search through the Reactor for Fusion atom package content via your web browser. This is handy if you are on a tablet or mobile device and are looking for the name of a specific package you want to tell a friend about it.
+
 ## Development To-Do List
 
 The following features will be completed before the official release ships:
