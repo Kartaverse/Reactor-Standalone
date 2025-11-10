@@ -230,7 +230,12 @@ Keep in mind you need to have write permissions to the folder where you want Rea
 
 If an error occurs when customizing the Reactor Install PathMap, that results in getting locked out of the Reactor GUI, you will need to either edit the Reactor JSON preference file to modify the location in a text editor, or remove the JSON file to reset it back to the defaults.
 
-
 This line in the Reactor JSON preferences file is where Reactor saves the downloaded content to:
 
 ![Reactor JSON](Images/Reactor-JSON-Install-Path.png)
+
+# Reactor macOS App Store Compatibility
+
+If you are using Resolve (Free) downloaded from the Apple App Store, the earlier Reactor Classic installation path was:
+
+    /Users/<Your User Account>/Library/Containers/com.blackmagic-design.DaVinciResolveLite/Data/Library/Application Support/Fusion/Reactor/

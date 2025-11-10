@@ -13,14 +13,15 @@ The Reactor Package Manager has been revamped as a desktop application that work
 ## Table of Contents
 
 - [Installation](Install.md)
-- [Fusion Usage](FusionUsage.md)
+- [Reactor Essentials](ReactorEssentials.md)
 - [Assimilate Usage](AssimilateUsage.md)
 - [Houdini Usage](HoudiniUsage.md)
 - [JangaFX Usage](JangaFXUsage.md)
 - [LightWave Usage](LightWaveUsage.md)
 - [OpenFX Usage](OpenFXUsage.md)
-- [Hotkeys](Hotkeys.md)
 - [Beta Notes](BetaNotes.md)
+- [Advanced Reactor Usage.md](AdvancedReactorUsage.md)
+- [Hotkeys](Hotkeys.md)
 - [Change Log](ChangeLog.md)
 
 ## Downloads
