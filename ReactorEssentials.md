@@ -36,7 +36,7 @@ For example, if you want to see content that works with Resolve (Free), Resolve 
 
 #### State Section
 
-The "State" section provides the ability to see packages that match a parameter like if it is installed, not installed, there are donations requested, something is new to reactor, updates exist for an installed packages, or items are being downloaded.
+The "State" section provides the ability to see packages that match a parameter like if it is installed, not installed, there are donations requested, something is new to Reactor, updates exist for an installed packages, or items are being downloaded.
 
 ![Select a State](Images/Left-Panel-Select-State.png)
 
@@ -104,6 +104,8 @@ Dependencies:
 The top bar has a search field that allows to you look for atom packages based upon keywords, or filenames. Clicking the "Search" button will causes the search to be performed.
 
 The "Clear Download Queue" button allows you to cancel the active downloads that are in-progress. This will remove the pending tasks from the "Downloading" state section in the left panel. If multiple packages are being downloaded with linked atom dependencies, you may have to click the "Clear Download Queue" button again.
+
+The yellow colored "Reactor" icon at the far left of the Top bar is used to open the Reactor Settings window. This window allows you to change where atom packages are downloaded to.
 
 ![Top bar](Images/Top-Bar.png)
 
