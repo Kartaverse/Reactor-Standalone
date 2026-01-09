@@ -88,9 +88,9 @@ In the Font preview window that appears, press the "Install" button.
 
 ## Linux Install
 
-1. Download the Linux compatible Zip archive with a name like `reactor-for-win-x64-v<Version Number>.zip`.
+1. Download the Linux compatible Zip archive with a name like `reactor-for-linux-x64-v<Version Number>.zip`.
 
-2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-win-x64-v<Version Number>` folder. You will see a "Reactor" folder that holds the Reactor Standalone executables, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
+2. Expand this zip archive in your Downloads folder. Open up the newly created `reactor-for-linux-x64-v<Version Number>` folder. You will see a "Reactor" folder that holds the Reactor Standalone executables, along with usage documentation in a "Docs" folder, and other resources like custom fonts you can install.
 
 3. Copy the "Reactor" folder to your /opt/ folder. This will result in Reactor being installed to:  
 `/opt/Reactor/Reactor`. For convenience there is a `/opt/Reactor/Reactor Standalone.desktop` shortcut  file available.
