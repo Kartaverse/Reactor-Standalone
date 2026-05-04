@@ -55,6 +55,7 @@ or
 - BMD Resolve Free, Resolve Studio, Fusion Studio, and Fusion Render Node support the use of OpenFX plugins.
 - BorisFX Silhouette has notes about [OpenFX support](https://support.borisfx.com/hc/en-us/articles/8803467755021-What-3rd-party-OFX-plug-ins-does-Silhouette-support).
 - The Foundry Nuke software has [notes about loading OFX Plugins](https://learn.foundry.com/nuke/content/comp_environment/configuring_nuke/loading_ofx_plugins.html).
+- Maxon Autograph has [notes about loading OFX Plugins](https://help.maxon.net/ag/en-us/Content/html/Autograph_fails_due_to_OpenFX.html?tocpath=Miscellaneous%20%2526%20Legacy%20Pages%7CTroubleshooting%7C_____3).
 - Natron has an [OpenFX Arena GitHub repo](https://github.com/NatronGitHub/openfx-arena).
 - SideFX Houdini has notes about [OpenFX usage in the Copernicus compositing context](https://www.sidefx.com/docs/houdini/copernicus/openfx.html#setting-up-the-openfx-environment-variable).
 
