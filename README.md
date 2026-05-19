@@ -10,6 +10,8 @@ The Reactor Package Manager has been revamped as a desktop application that work
 
 ![Reactor UI Screenshot](Images/Reactor-Standalone.png)
 
+Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth the wait. If you launch Reactor from a terminal session you will see progress information.
+
 ## Table of Contents
 
 - [Reactor Installation](Install.md)
@@ -60,7 +62,8 @@ The [Reactor Docs](https://kartaverse.github.io/Reactor-Docs/) website allows yo
 The following features will be completed before the official release ships:
 
 - A "Repo Editor" GUI is under development now. This provides control over the repos that show up in the Reactor left panel. The "Repo Editor" also allows you to add your own custom repositories that make it easy to host atoms for yourself or your team.
-- Speed up Reactor startup times for the initial syncing. Right now it can take 5 to 10 seconds on a Windows PC for Reactor to launch. Maybe a startup progress dialog would be useful.
+- Speed up Reactor startup times for the initial syncing. Right now it can take 2 minutes on a Windows PC for Reactor to launch. A startup progress dialog would be useful, along with performance optimization.
 - Improve Windows download queue task handling with synchronous downloads. Right now asynchronous downloads are used at a per-atom file transfer level which is blocking and reduces the interactivity of the UI. This results in the Reactor Standalone for Windows release feeling laggier than the macOS and Linux builds.
 - It's helpful to be running your OS in "Dark Mode" if you are looking at the Reactor Standalone app's "Preference" window in the current beta builds. I am working on adjusting the text color in this window to solve the contrast issues.
 - The "Update" button code will be improved in an upcoming build. Right now clicking the "Update" button in the actions bar zone will update all of the atom packages that are not "in version". The next release will move it to updating only the currently selected atoms in the List panel.
+- It is best to quit Reactor using the "File > Quit" menu item. Using the "Close" box on the main window can sometimes leave a latent Reactor background task active that you will need to close using the Task Manager.
