@@ -1,5 +1,9 @@
 # Reactor Standalone Change Log
 
+## 2026-05-19
+
+Updated the docs to indicate the standard load time for launching Reactor Beta 37.
+
 ## 2025-11-10
 
 Updated the usage docs.
