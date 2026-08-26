@@ -118,22 +118,6 @@ class Reactor < Formula
   end
 
   def post_install
-    # Create macOS Desktop alias (post-sandbox, so can access user files)
-    if OS.mac?
-      require "timeout"
-      begin
-        Timeout.timeout(10) do
-          system "osascript", "-e", <<~APPLESCRIPT
-            tell application "Finder"
-              make new alias file at POSIX file "#{ENV["HOME"]}/Desktop" to POSIX file "#{libexec}/Reactor.app"
-            end tell
-          APPLESCRIPT
-        end
-      rescue Timeout::Error
-        # Alias creation timed out - user can create manually if needed
-      end
-    end
-    
     # Install Linux system dependencies (optional)
     if OS.linux? && ENV["HOMEBREW_REACTOR_AUTO_DEPS"] == "1"
       install_linux_deps
