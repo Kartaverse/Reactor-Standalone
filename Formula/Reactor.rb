@@ -71,14 +71,6 @@ class Reactor < Formula
     resource("reactor-content").stage do
       FileUtils.cp_r(Dir["Reactor/*"], reactor_home)
     end
-    
-    if OS.mac?
-      system "osascript", "-e", <<~APPLESCRIPT
-        tell application "Finder"
-          make new alias file at POSIX file "#{ENV["HOME"]}/Desktop" to POSIX file "#{libexec}/Reactor.app"
-        end tell
-      APPLESCRIPT
-    end
   end
 
   def caveats
@@ -90,8 +82,7 @@ class Reactor < Formula
         - CLI available via: reactor
         - Fonts have been installed to ~/Library/Fonts/
         - User data folder populated at ~/Reactor/
-        - Alias created on Desktop pointing to /Applications/Reactor.app
-      
+        
       Linux:
         - Binary installed to #{bin}/reactor
         - Fonts have been installed to ~/.local/share/fonts/
@@ -127,12 +118,28 @@ class Reactor < Formula
   end
 
   def post_install
-    # Install Linux system dependencies (optional - runs after main install)
+    # Create macOS Desktop alias (post-sandbox, so can access user files)
+    if OS.mac?
+      require "timeout"
+      begin
+        Timeout.timeout(10) do
+          system "osascript", "-e", <<~APPLESCRIPT
+            tell application "Finder"
+              make new alias file at POSIX file "#{ENV["HOME"]}/Desktop" to POSIX file "#{libexec}/Reactor.app"
+            end tell
+          APPLESCRIPT
+        end
+      rescue Timeout::Error
+        # Alias creation timed out - user can create manually if needed
+      end
+    end
+    
+    # Install Linux system dependencies (optional)
     if OS.linux? && ENV["HOMEBREW_REACTOR_AUTO_DEPS"] == "1"
       install_linux_deps
     end
   rescue
-    # If dependency installation fails, don't block the formula install
+    # If any step fails, don't block the formula install
   end
 
   def install_linux_deps
@@ -146,7 +153,6 @@ class Reactor < Formula
         "libsoup2.4-dev",
         "libpango1.0-dev"
     elsif command?("dnf")
-      # Detect if Rocky 9 or RHEL 9 (uses crb instead of powertools)
       repo_cmd = if File.read("/etc/os-release").include?("VERSION_ID=\"9")
         ["dnf", "config-manager", "--enable", "crb"]
       else
