@@ -14,12 +14,12 @@ cask "reactor" do
 
   url "https://github.com/Kartaverse/Reactor-Standalone/releases/download/4.0.5/reactor-for-mac-universal-v4-beta-37.zip"
 
-  app "Reactor.app"
+  app "reactor-for-mac-universal-v4-beta-37/Reactor.app"
   
-  font "Fonts/Inter-Italic-VariableFont_opsz,wght.ttf"
-  font "Fonts/Inter-VariableFont_opsz,wght.ttf"
-  font "Fonts/RobotoMono-Italic-VariableFont_wght.ttf"
-  font "Fonts/RobotoMono-VariableFont_wght.ttf"
+  font "reactor-for-mac-universal-v4-beta-37/Fonts/Inter-Italic-VariableFont_opsz,wght.ttf"
+  font "reactor-for-mac-universal-v4-beta-37/Fonts/Inter-VariableFont_opsz,wght.ttf"
+  font "reactor-for-mac-universal-v4-beta-37/Fonts/RobotoMono-Italic-VariableFont_wght.ttf"
+  font "reactor-for-mac-universal-v4-beta-37/Fonts/RobotoMono-VariableFont_wght.ttf"
 
   postflight do
     # Install ~/Reactor/ user data folder from reactor-manual-install.zip
