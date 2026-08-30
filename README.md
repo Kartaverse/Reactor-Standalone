@@ -35,6 +35,10 @@ You can download the latest Reactor Standalone beta releases from the project's 
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
 
+### Other Installation Options
+
+As of (2026-08-26) it is now possible to install Reactor Standalone and Reactor Classic at the same time using a new Homebrew cask. For more information check out the [Homebrew.md](Homebrew.md) file in this repo.
+
 ## Special Thanks Credits
 
 Reactor as it exists today would not be possible without the assistance of the following people:
