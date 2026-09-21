@@ -5,7 +5,7 @@
 > Reactor Roadmap (2026-09-21)  
 > Written by: [Andrew Hazelden](mailto:andrew@andrewhazelden.com)  
 
-[Reactor-Anywhere](https://github.com/Kartaverse/Reactor-Anywhere) is a new autumn 2026 timed project to convert the best design ideas from the “Reactor Classic” and “Reactor Standalone” package managers and their user interfaces, into a modern web based experience.
+[Reactor-Anywhere](ReactorAnywhere.md) is a new autumn 2026 timed project to convert the best design ideas from the “Reactor Classic” and “Reactor Standalone” package managers and their user interfaces, into a modern web based experience.
 
 The design goal of this project is to allow the \~500K plus active users of Reactor Classic/Reactor Standalone to entirely skip the need to install the app or lua script. Access "Reactor Anywhere" via a web browser hosted [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_app) session, with the same quality of user interface experience and control.
 
