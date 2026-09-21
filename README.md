@@ -27,8 +27,8 @@ Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth
 - [Reactor Beta Notes](Docs/BetaNotes.md)
 - [Reactor Change Log](Docs/ChangeLog.md)
 - Reactor-Anywhere
-	- [Reactor Roadmap](ReactorAnywhere.md)
-	- [Reactor Atomz Virtual FileSystem](ReactorAtomzVirtualFileSystem.md)
+	- [Reactor Roadmap](Docs/ReactorAnywhere.md)
+	- [Reactor Atomz Virtual FileSystem](Docs/ReactorAtomzVirtualFileSystem.md)
 
 ## Downloads
 
