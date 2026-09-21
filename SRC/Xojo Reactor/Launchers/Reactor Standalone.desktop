@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reactor Standalone
+GenericName=Reactor Standalone
+Comment=Reactor is a package manager for Fusion and Resolve. Reactor streamlines the installation of 3rd party content through the use of "Atom" packages that are synced automatically with a Git repository. Now with 4x the magic!
+Path=/opt/Reactor/
+Exec=/opt/Reactor/Reactor %u
+Terminal=false
+Icon=/opt/Reactor/Reactor Resources/appicon_128.png
+StartupNotify=true
+Name[en_US]=Reactor Standalone
+

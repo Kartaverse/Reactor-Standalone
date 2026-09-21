@@ -1,0 +1,15 @@
+{
+	"Name": "Reactor",
+	"Protocol": "GitLab",
+	"Software": "Fusion",
+	"LocalFile": "Reactor.json",
+	"DeployFolder": "Deploy",
+	"BaseURL": "https://gitlab.com/WeSuckLess/Reactor/-/blob/master/Atoms/",
+	"URL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Reactor.json?ref_type=heads",
+	"ZIPFilePrefix": "Reactor-master-Atoms-",
+	"Highlights": {
+		"Name": "Reactor Highlights",
+		"LocalFile": "Highlights.json",
+		"URL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights.json?ref_type=heads"
+	}
+}

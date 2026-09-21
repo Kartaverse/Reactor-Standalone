@@ -1,0 +1,44 @@
+{
+    "1": {
+        "Title": "Welcome to Reactor",
+        "ImageURL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights-1.png?ref_type=heads",
+        "Blurb": "Reactor's official spokesmonkey Charlie presents a guided tour of what's possible.",
+        "ShowRelatedName": "YouTube Playlist",
+        "ShowRelatedURL": "https://www.youtube.com/playlist?list=PLVDcRvd92hcgtYFgiiJtWUWEKJH0Op8W9",
+        "DiscussName": "(WeSuckLess Forum)",
+        "DiscussURL": "https://www.steakunderwater.com/wesuckless/viewtopic.php?t=7426"
+    },
+    "2": {
+        "Title": "Vonk Mograph Fuse",
+        "ImageURL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights-2.png?ref_type=heads",
+        "Blurb": "The vMograph tools are the next generation of Vonk Ultra technology that help power dynamic motion graphics. Create data driven graphics with the help of a large collection of modifier nodes, and a fuse-based 2D and 3D vector rendering engine.",
+        "AtomName": "Vonk Mograph",
+        "AtomID": "com.Vonk.FusionMograph",
+        "ShowRelatedName": "Instagram Channel",
+        "ShowRelatedURL": "https://www.instagram.com/vonkultra/",
+        "DiscussName": "(WeSuckLess Forum)",
+        "DiscussURL": "https://www.steakunderwater.com/wesuckless/viewtopic.php?t=7426"
+    },
+    "3": {
+        "Title": "STMapper Fuse",
+        "ImageURL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights-3.png?ref_type=heads",
+        "Blurb": "A DCTL/GPU powered Fuse for all your STmap needs.",
+        "AtomName": "STMapper",
+        "AtomID": "com.JacobDanell.STMapper",
+        "ShowRelatedName": "Instagram Channel",
+        "ShowRelatedURL": "https://www.instagram.com/emberlightvfx/",
+        "DiscussName": "(WeSuckLess Forum)",
+        "DiscussURL": "https://www.steakunderwater.com/wesuckless/viewtopic.php?t=7426"
+    },
+    "4": {
+        "Title": "PROPAGATE Script",
+        "ImageURL": "https://gitlab.com/WeSuckLess/Reactor/-/raw/master/JSON/Highlights-4.png?ref_type=heads",
+        "Blurb": "PROPAGATE is a utility that captures parameter changes on the active node and applies them to other selected nodes, keeping settings, connections, expressions, and animations consistent across a selection.",
+        "AtomName": "PROPAGATE",
+        "AtomID": "com.DominikBargiel.Propagate",
+        "ShowRelatedName": "YouTube Channel",
+        "ShowRelatedURL": "https://www.youtube.com/watch?v=yT1KqW1dVRw",
+        "DiscussName": "(WeSuckLess Forum)",
+        "DiscussURL": "https://www.steakunderwater.com/wesuckless/viewtopic.php?p=56240#p56240"
+    }
+}

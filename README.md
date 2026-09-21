@@ -8,36 +8,39 @@ Reactor is a package manager created by the [We Suck Less Community](https://www
 
 The Reactor Package Manager has been revamped as a desktop application that works seamlessly on macOS, Windows, and Linux.
 
-![Reactor UI Screenshot](Images/Reactor-Standalone.png)
+![Reactor UI Screenshot](Docs/Images/Reactor-Standalone.png)
 
 Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth the wait. If you launch Reactor from a terminal session you will see progress information.
 
 ## Table of Contents
 
-- [Reactor Installation](Install.md)
-- [Reactor Essentials](ReactorEssentials.md)
-- [Reactor Hotkeys](Hotkeys.md)
-- [Advanced Reactor Usage](AdvancedReactorUsage.md)
+- [Reactor Installation](Docs/Install.md)
+- [Reactor Essentials](Docs/ReactorEssentials.md)
+- [Reactor Hotkeys](Docs/Hotkeys.md)
+- [Advanced Reactor Usage](Docs/AdvancedReactorUsage.md)
 - DCC Usage Tips
-	- [Assimilate Usage](AssimilateUsage.md)
-	- [Houdini Usage](HoudiniUsage.md)
-	- [JangaFX Usage](JangaFXUsage.md)
-	- [LightWave Usage](LightWaveUsage.md)
-	- [OpenFX Usage](OpenFXUsage.md)
-- [Reactor Beta Notes](BetaNotes.md)
-- [Reactor Change Log](ChangeLog.md)
+	- [Assimilate Usage](Docs/AssimilateUsage.md)
+	- [Houdini Usage](Docs/HoudiniUsage.md)
+	- [JangaFX Usage](Docs/JangaFXUsage.md)
+	- [LightWave Usage](Docs/LightWaveUsage.md)
+	- [OpenFX Usage](Docs/OpenFXUsage.md)
+- [Reactor Beta Notes](Docs/BetaNotes.md)
+- [Reactor Change Log](Docs/ChangeLog.md)
+- Reactor-Anywhere
+	- [Reactor Roadmap](ReactorAnywhere.md)
+	- [Reactor Atomz Virtual FileSystem](ReactorAtomzVirtualFileSystem.md)
 
 ## Downloads
 
 You can download the latest Reactor Standalone beta releases from the project's [GitHub Releases page](https://github.com/Kartaverse/Reactor-Standalone/releases).
 
-![GitHub Releases](Images/GitHub-Releases.png)
+![GitHub Releases](Docs/Images/GitHub-Releases.png)
 
 Note: Click on the "Assets" section for the GitHub release to expand the file download section.
 
 ### Other Installation Options
 
-As of (2026-08-26) it is now possible to install Reactor Standalone and Reactor Classic at the same time using a new Homebrew cask. For more information check out the [Homebrew.md](Homebrew.md) file in this repo.
+It is also possible to install Reactor Standalone and Reactor Classic at the same time using a new Homebrew cask. For more information check out the [Homebrew.md](Docs/Homebrew.md) file in this repo.
 
 ## Special Thanks Credits
 
