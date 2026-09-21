@@ -1,5 +1,9 @@
 # Reactor Standalone Change Log
 
+## 2026-09-21
+
+Updated the docs to add the Reactor development roadmap. This includes information about the upcoming [Reactor-Anywhere](ReactorAnywhere.md) efforts. Also added notes on how to use the macOS Homebrew "brew" package manager to [install Reactor Classic and Reactor Standalone](Homebrew.md) at the same time.
+
 ## 2026-05-19
 
 Updated the docs to indicate the standard load time for launching Reactor Beta 37.
