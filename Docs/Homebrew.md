@@ -15,8 +15,10 @@ The Homebrew package manager for macOS is installed using the terminal command:
 Reactor Standalone can then be installed using Homebrew's "brew" CLI tool:
 
 ```bash
+{
 brew tap kartaverse/reactor https://github.com/Kartaverse/homebrew-reactor
 brew install --cask kartaverse/reactor/reactor
+}
 ```
 
 If you need more detailed information for the brew install process you can run:
@@ -87,6 +89,8 @@ kartaverse/reactor/reactor
 To remove Reactor Standalone and untap the repository:
 
 ```bash
+{
 brew uninstall --cask kartaverse/reactor/reactor
 brew untap kartaverse/reactor
+}
 ```
