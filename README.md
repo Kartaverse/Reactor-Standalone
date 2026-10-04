@@ -15,6 +15,7 @@ Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth
 ## Table of Contents
 
 - [Reactor Installation](Docs/Install.md)
+	- [Brew CLI Install Option](Docs/Homebrew.md)	
 - [Reactor Essentials](Docs/ReactorEssentials.md)
 - [Reactor Hotkeys](Docs/Hotkeys.md)
 - [Advanced Reactor Usage](Docs/AdvancedReactorUsage.md)
@@ -26,7 +27,7 @@ Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth
 	- [OpenFX Usage](Docs/OpenFXUsage.md)
 - [Reactor Beta Notes](Docs/BetaNotes.md)
 - [Reactor Change Log](Docs/ChangeLog.md)
-- Reactor-Anywhere
+- Reactor-Anywhere Development
 	- [Reactor Roadmap](Docs/ReactorAnywhere.md)
 	- [Reactor Atomz Virtual FileSystem](Docs/ReactorAtomzVirtualFileSystem.md)
 
