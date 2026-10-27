@@ -15,7 +15,7 @@ When you access Reactor via an RSS newsfeed in your favorite news reader app, yo
 An interesting trick is that you can use the Reactor RSS newsfeed approach on your iPadOS device to install Reactor hosted macros, effects templates, and DCTL LUTs for use with Resolve Studio for iPad. This is something new as far as capabilities go. 
 
 RSS Newsfeed URL:
-- [https://gitlab.com/WeSuckLess/Reactor/-/blob/master/RSS/feed.xml](https://gitlab.com/WeSuckLess/Reactor/-/blob/master/RSS/feed.xml?ref_type=heads)
+- [https://gitlab.com/WeSuckLess/Reactor/-/raw/master/RSS/feed.xml?ref_type=heads](https://gitlab.com/WeSuckLess/Reactor/-/raw/master/RSS/feed.xml?ref_type=heads)
 
 ## RSS Readers
 
