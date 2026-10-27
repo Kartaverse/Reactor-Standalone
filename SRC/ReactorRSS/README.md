@@ -8,7 +8,7 @@ Last Updated: 2026-10-27
 
 Reactor.RSS was developed as a backup "life-raft" 🛟 option to help smooth over the ocasional rough patches when "[Reactor Classic](https://gitlab.com/WeSuckLess/Reactor)" or "[Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone)" have technical issues running on a computer.
 
-An [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) is an old-school way to explore news and information that is published online. This allows you to subscribe to news and information updates on topics you care to know more about. This approach works equally well on desktops, laptops, tablets, phones, and web browsers. The specification for [RSS can be read here](https://www.rssboard.org/rss-specification).
+An [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) is an old-school way to explore news that is published online. This allows you to subscribe to news and information updates on topics you care to know more about. This approach works equally well on desktops, laptops, tablets, phones, and web browsers. The specification for [RSS can be read here](https://www.rssboard.org/rss-specification).
 
 When you access Reactor via an RSS newsfeed in your favorite news reader app, you get access to the full Reactor atom library of content. Each Reactor atom package, and the sidebar "highlight" news item, is listed as  new story entries that are syndicated using the XML based RSS newsfeed protocol.
 
