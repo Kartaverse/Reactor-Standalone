@@ -30,6 +30,7 @@ Note: It takes about 2 minutes for Reactor to start up so be patient, it's worth
 - Reactor-Anywhere Development
 	- [Reactor Roadmap](Docs/ReactorAnywhere.md)
 	- [Reactor Atomz Virtual FileSystem](Docs/ReactorAtomzVirtualFileSystem.md)
+- [Reactor RSS Newsfeed](SRC/ReactorRSS/README.md)
 
 ## Downloads
 
