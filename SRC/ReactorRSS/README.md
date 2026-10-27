@@ -50,7 +50,7 @@ Google Colab Notebook:
 
 At the top of the Collab Notebook is where each of the Reactor repository JSON sources are defined:
 
-```JSON
+```Python
 RepoJSON = """
 {
   "Repos": [
