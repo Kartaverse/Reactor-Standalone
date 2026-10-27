@@ -12,7 +12,7 @@ An [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) is an old-school way to exp
 
 When you access Reactor via an RSS newsfeed in your favorite news reader app, you get access to the full Reactor atom library of content. Each Reactor atom package, and the sidebar "highlight" news item, is listed as  new story entries that are syndicated using the XML based RSS newsfeed protocol.
 
-An interesting trick is that you can use the Reactor RSS newsfeed approach on your iPadOS device to install Reactor hosted macros, effects templates, and DCTL LUTs for use with Resolve Studio for iPad. This is something new as far as capabilities go. 
+An interesting trick is that you can use the Reactor RSS newsfeed approach on your iPadOS device to install Reactor hosted macros, effects templates, and DCTL LUTs for use with [Resolve Studio for iPad](https://apps.apple.com/us/app/davinci-resolve-for-ipad/id1581363826). The native iPadOS Files app is used to unzip the atom package and copy its resources into the Resolve settings folder. This is something new as far as capabilities go. 
 
 RSS Newsfeed URL:
 - [https://gitlab.com/WeSuckLess/Reactor/-/raw/master/RSS/feed.xml?ref_type=heads](https://gitlab.com/WeSuckLess/Reactor/-/raw/master/RSS/feed.xml?ref_type=heads)
