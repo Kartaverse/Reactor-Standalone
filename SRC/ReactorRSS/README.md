@@ -1,5 +1,5 @@
 # Reactor.RSS
-## A RSS news feed of your latest Reactor Package Manager atoms
+## A RSS newsfeed of the latest Reactor Package Manager atoms
 
 Developed By: Andrew Hazelden  
 Last Updated: 2026-10-27  
