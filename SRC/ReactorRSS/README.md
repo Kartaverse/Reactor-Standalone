@@ -2,7 +2,6 @@
 ## A RSS newsfeed of the latest Reactor Package Manager atoms
 
 Developed By: Andrew Hazelden  
-Last Updated: 2026-10-27  
 
 ## Overview
 
@@ -22,7 +21,8 @@ RSS Newsfeed URL:
 Local RSS Reader apps allow you to view an RSS newsfeed via a desktop application.
 
 Linux:
-- [Akregator for KDE](https://apps.kde.org/akregator/)
+- [Akregator for KDE](https://apps.kde.org/akregator/)  
+  (You can install Akregator on Ubuntu based distros using: `sudo apt install akregator`)
 
 macOS:
 - [Vienna RSS](https://www.vienna-rss.com/)
