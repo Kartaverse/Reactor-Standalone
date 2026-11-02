@@ -6,7 +6,7 @@ Last Updated: 2026-10-27
 
 ## Overview
 
-Reactor.RSS was developed as a backup "life-raft" 🛟 option to help smooth over the ocasional rough patches when "[Reactor Classic](https://gitlab.com/WeSuckLess/Reactor)" or "[Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone)" have technical issues running on a computer.
+Reactor.RSS was developed as a backup "life-raft" 🛟 option to help smooth over the occasional rough patches when "[Reactor Classic](https://gitlab.com/WeSuckLess/Reactor)" or "[Reactor Standalone](https://github.com/Kartaverse/Reactor-Standalone)" have technical issues running on a computer.
 
 An [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) is an old-school way to explore news that is published online. This allows you to subscribe to news and information updates on topics you care to know more about. This approach works equally well on desktops, laptops, tablets, phones, and web browsers. The specification for [RSS can be read here](https://www.rssboard.org/rss-specification).
 
@@ -19,7 +19,12 @@ RSS Newsfeed URL:
 
 ## RSS Readers
 
-Local RSS Reader for macOS:
+Local RSS Reader apps allow you to view an RSS newsfeed via a desktop application.
+
+Linux:
+- [Akregator for KDE](https://apps.kde.org/akregator/)
+
+macOS:
 - [Vienna RSS](https://www.vienna-rss.com/)
 
 ![RSS Reader on macOS](Images/Vienna-RSS-Reader-on-macOS.png)
